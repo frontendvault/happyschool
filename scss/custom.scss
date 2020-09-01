@@ -1,0 +1,66 @@
+$blue:#057BBD;
+$light-blue:#00C4FF;
+$white:#ffffff;
+
+body {
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.container {
+    max-width: 1208px;
+}
+
+.main-banner {
+    background: url(../assets/images/main-banner-bg.png) no-repeat top center;
+
+    .login-section {
+        text-align: center;
+        color: $white;
+
+        h4 {
+            font-size: 24px;
+            margin-bottom: 24px;
+        }
+
+        .login-box {
+            border: 1px solid $white;
+            border-radius: 24px;
+            padding: 24px 20px;
+            margin-bottom: 24px;
+
+
+
+            p {
+                font-size: 18px;
+                margin-top: 10px;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.happy-school-benefits {
+    background: $blue;
+    color: $white;
+
+    h2 {
+        font-size: 60px;
+        line-height: 64px;
+        color: $light-blue;
+    }
+
+    img {
+        margin-bottom: 14px;
+    }
+
+    h6 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+
+}

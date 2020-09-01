@@ -10,16 +10,25 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="scss/custom.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Happy School</title>
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container-fluid main-banner">
       <div class="container">
         <div class="row">
-          <div class="col-md-12"><h2>Happy School</h2></div>
+          <div class="col-md-12"></div>
         </div>
         <div class="row">
+          <div class="col-md-6 text-center">
+            <img src="assets/images/happyschool-logo.svg" alt="" />
+          </div>
+          <div class="w-100"></div>
           <div class="col-md-6">
             <h1>Remote learning that is</h1>
             <p>
@@ -34,22 +43,34 @@
               motivation and choice of strategies.
             </p>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4 offset-md-2 login-section">
             <div class="row">
-              <div class="col-col-md-12"><h4>Log in as a...</h4></div>
+              <div class="col-md-12"><h4>Log in as a...</h4></div>
             </div>
             <div class="row">
               <div class="col-md-6">
-                <h5>Teacher</h5>
+                <div class="login-box">
+                  <img src="assets/icons/teachers-login.svg" alt="" />
+                  <p>Teacher</p>
+                </div>
               </div>
               <div class="col-md-6">
-                <h5>Student</h5>
+                <div class="login-box">
+                  <img src="assets/icons/student-login.svg" alt="" />
+                  <p>Student</p>
+                </div>
               </div>
               <div class="col-md-6">
-                <h5>Parent</h5>
+                <div class="login-box">
+                  <img src="assets/icons/parents-login.svg" alt="" />
+                  <p>Parent</p>
+                </div>
               </div>
               <div class="col-md-6">
-                <h5>School Leader</h5>
+                <div class="login-box">
+                  <img src="assets/icons/school-leader-login.svg" alt="" />
+                  <p>School Leader</p>
+                </div>
               </div>
             </div>
           </div>
@@ -79,21 +100,21 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid happy-school-benefits py-md-5">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <h2>
-              HappSchool benefits all key stakeholders <br />
-              in the education ecosystem
+              HappSchool benefits all key stakeholders in the education
+              ecosystem
             </h2>
-            <small>It creats a powerful classroom management</small>
+            <h6 class="mb-5">It creats a powerful classroom management</h6>
           </div>
         </div>
         <div class="row">
           <div class="col-md-3">
             <img src="assets/icons/students-intract-with-ai.svg" alt="" />
-            <h3>Students interact with AI</h3>
+            <h6>Students interact with AI</h6>
             <p>
               Student work from year-to-year and class-to-class in a single,
               streamlined portfolio. Plus, families remain connected
@@ -102,7 +123,7 @@
           </div>
           <div class="col-md-3">
             <img src="assets/icons/gain-insights.svg" alt="" />
-            <h3>Teacher gains in-depth insights and saves time</h3>
+            <h6>Teacher gains in-depth insights and saves time</h6>
             <p>
               Teachers deeply understand student emotional well-being, thinking
               and progress — enabling them to teach better
@@ -110,7 +131,7 @@
           </div>
           <div class="col-md-3">
             <img src="assets/icons/family-connect.svg" alt="" />
-            <h3>Families connect</h3>
+            <h6>Families connect</h6>
             <p>
               Families gain a window into their student’s learning and engage
               with school happenings
@@ -118,7 +139,7 @@
           </div>
           <div class="col-md-3">
             <img src="assets/icons/privacy-by-design.svg" alt="" />
-            <h3>Built with privacy by design</h3>
+            <h6>Built with privacy by design</h6>
             <p>
               Designed to protect your privacy and security, and give you
               control over your information. We don’t own anything you add to
@@ -130,7 +151,7 @@
     </div>
     <div class="container-fluid">
       <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
           <div class="col-md-10">
             <img
               src="assets/images/smart-interface.svg"
@@ -149,6 +170,70 @@
             </p>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-md-6 px-md-0">
+          <img
+            src="assets/images/teachers-save-time.svg"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-md-6 p-xl-5">
+          <h3>
+            Teachers save time and are able to focus their efforts on individual
+            students 
+          </h3>
+          <p>
+            Teachers instantly get the picture of students’ emotional wellbeing,
+            level of difficulty of the tasks, identify and alert in real-time
+            any ‘at risk’ students who required immediate intervention and
+            support. Chatbot is built into all lessons which saves teachers time
+            in answering student questions on schedule, assignments, deadlines.
+          </p>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-md-6 p-xl-5">
+          <h3>
+            Parents get immediate and relevant feedback to support their child’s
+            learning journey 
+          </h3>
+          <p>
+            Parents get notified in real-time on their child’s progress in the
+            classroom. They are informed of their child’s learning gaps which
+            allows them to provide appropriate support to aid their learning.
+            <br />
+            <br />
+            Moreover, parents get immediate feedback from teachers on their
+            child’s progress. HappSchool provides relevant and real-time data
+            that enables immediate intervention and support to students
+          </p>
+        </div>
+        <div class="col-md-6 px-md-0">
+          <img
+            src="assets/images/parents-get-geedback.svg"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid contact-us">
+      <div class="col-md-4 contact">
+        <h3>Contact us</h3>
+
+        <button class="btn btn-lg">Contact HappSchool Support</button>
+        <button class="btn btn-lg">Contact School Sales</button>
+
+        <h4>Our Office</h4>
+
+        <p>
+          71-75 Shelton Street, Covent Garden, <br />
+          WC2H 9JQ, London, United Kingdom
+        </p>
       </div>
     </div>
 
