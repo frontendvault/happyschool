@@ -24,6 +24,61 @@ body {
             line-height: 64px;
             color: $fade-blue;
             margin-bottom: 35px;
+
+            #spin {
+                color: $white;
+            }
+
+            #spin:after {
+                content: "";
+                animation: spin 10s linear infinite;
+            }
+
+            @keyframes spin {
+                0% {
+                    content: "Easy";
+                }
+
+                10% {
+                    content: "dolor";
+                }
+
+                20% {
+                    content: "sit";
+                }
+
+                30% {
+                    content: "amet";
+                }
+
+                40% {
+                    content: "consect";
+                }
+
+                50% {
+                    content: "adipis";
+                }
+
+                60% {
+                    content: "elit";
+                }
+
+                70% {
+                    content: "Hic";
+                }
+
+                80% {
+                    content: "atque";
+                }
+
+                90% {
+                    content: "fuga";
+                }
+
+                100% {
+                    content: "something";
+                }
+            }
         }
 
         p {
@@ -76,9 +131,10 @@ body {
 
 .relevant-feedback {
     h3 {
-        font-size: 40px;
+        font-size: 50px;
         color: $light-blue;
-        line-height: 46px;
+        line-height: 52px;
+        margin-bottom: 30px;
     }
 
     p {
@@ -144,6 +200,24 @@ body {
 
         p {
             color: $white;
+        }
+    }
+
+    .video-bg {
+        background: url(..//assets/images/video-img.svg) no-repeat top left;
+        background-size: cover;
+        position: relative;
+        padding: 24px;
+
+        .play-icon {
+            height: 160px;
+            width: 160px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
         }
     }
 }

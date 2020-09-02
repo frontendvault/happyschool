@@ -21,6 +21,88 @@ body {
   margin-bottom: 35px;
 }
 
+.main-banner .remote-learning h1 #spin {
+  color: #ffffff;
+}
+
+.main-banner .remote-learning h1 #spin:after {
+  content: "";
+  -webkit-animation: spin 10s linear infinite;
+          animation: spin 10s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    content: "Easy";
+  }
+  10% {
+    content: "dolor";
+  }
+  20% {
+    content: "sit";
+  }
+  30% {
+    content: "amet";
+  }
+  40% {
+    content: "consect";
+  }
+  50% {
+    content: "adipis";
+  }
+  60% {
+    content: "elit";
+  }
+  70% {
+    content: "Hic";
+  }
+  80% {
+    content: "atque";
+  }
+  90% {
+    content: "fuga";
+  }
+  100% {
+    content: "something";
+  }
+}
+
+@keyframes spin {
+  0% {
+    content: "Easy";
+  }
+  10% {
+    content: "dolor";
+  }
+  20% {
+    content: "sit";
+  }
+  30% {
+    content: "amet";
+  }
+  40% {
+    content: "consect";
+  }
+  50% {
+    content: "adipis";
+  }
+  60% {
+    content: "elit";
+  }
+  70% {
+    content: "Hic";
+  }
+  80% {
+    content: "atque";
+  }
+  90% {
+    content: "fuga";
+  }
+  100% {
+    content: "something";
+  }
+}
+
 .main-banner .remote-learning p {
   font-size: 18px;
 }
@@ -66,9 +148,10 @@ body {
 }
 
 .relevant-feedback h3 {
-  font-size: 40px;
+  font-size: 50px;
   color: #00C4FF;
-  line-height: 46px;
+  line-height: 52px;
+  margin-bottom: 30px;
 }
 
 .relevant-feedback p {
@@ -131,5 +214,23 @@ body {
 
 .contact-us .contact p {
   color: #ffffff;
+}
+
+.contact-us .video-bg {
+  background: url(..//assets/images/video-img.svg) no-repeat top left;
+  background-size: cover;
+  position: relative;
+  padding: 24px;
+}
+
+.contact-us .video-bg .play-icon {
+  height: 160px;
+  width: 160px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
 /*# sourceMappingURL=custom.css.map */

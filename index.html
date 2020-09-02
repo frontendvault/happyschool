@@ -30,7 +30,7 @@
           </div>
           <div class="w-100"></div>
           <div class="col-md-6 remote-learning">
-            <h1>Remote learning that is</h1>
+            <h1>Remote learning that is <span id="spin"></span></h1>
             <p>
               HappSchool is the intelligent intervention platform that combines
               artificial intelligence, learning science, neuroscience and
@@ -243,9 +243,36 @@
           />
         </div>
       </div>
+      <div class="row align-items-center">
+        <div class="col-md-6 px-xl-5">
+          <img
+            src="assets/images/better-understanding-individual-students.svg"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-md-6 p-xl-5">
+          <h3>Better Understanding Individual Students  </h3>
+          <p>
+            HappSchool is an absolute game-changer for teachers. It is a
+            streamlined way for kids to show their thinking and understanding in
+            ways that teachers usually don’t see.
+          </p>
+          <p>
+            Which students are struggling and what do they need help with?
+            Actionable data insights to teachers and school leaders helps to
+            effectively support students learning where they need it most.
+          </p>
+          <p>
+            HappSchool offers the ability to interrogate and understand the
+            nuanced cognitive, emotional, and motivational processes that shape
+            education in any learning environment – blended or remote.
+          </p>
+        </div>
+      </div>
     </div>
     <div class="container-fluid contact-us">
-      <div class="row align-items-center">
+      <div class="row">
         <div class="col-md-auto contact text-center p-md-5">
           <h3>Contact us</h3>
 
@@ -263,6 +290,11 @@
             71-75 Shelton Street, Covent Garden, <br />
             WC2H 9JQ, London, United Kingdom
           </p>
+        </div>
+        <div class="col video-bg">
+          <a href="javascript:;" class="play-icon">
+            <img src="assets/icons/play-icon.svg" alt="" />
+          </a>
         </div>
       </div>
     </div>
@@ -284,5 +316,26 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+    <script>
+      (function () {
+        var words = [
+            'Chef',
+            'Designer',
+            'Driver',
+            'Developer',
+            'Poet',
+            'Teacher',
+            'Happy Person',
+          ],
+          i = 0;
+        setInterval(function () {
+          $('#changingword').fadeOut(function () {
+            $(this)
+              .html(words[(i = (i + 1) % words.length)])
+              .fadeIn();
+          });
+        }, 3000);
+      })();
+    </script>
   </body>
 </html>
