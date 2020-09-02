@@ -10,6 +10,21 @@ body {
   background: url(../assets/images/main-banner-bg.png) no-repeat top center;
 }
 
+.main-banner .remote-learning {
+  color: #ffffff;
+}
+
+.main-banner .remote-learning h1 {
+  font-size: 64px;
+  line-height: 64px;
+  color: #C6E9FF;
+  margin-bottom: 35px;
+}
+
+.main-banner .remote-learning p {
+  font-size: 18px;
+}
+
 .main-banner .login-section {
   text-align: center;
   color: #ffffff;
@@ -33,6 +48,35 @@ body {
   margin-bottom: 0;
 }
 
+.smart-interface {
+  padding-top: 68px;
+  padding-bottom: 200px;
+  background: url(../assets/images/main-banner-bg.png) no-repeat bottom center;
+}
+
+.smart-interface h3 {
+  font-size: 48px;
+  color: #00C4FF;
+}
+
+.smart-interface p {
+  color: #057BBD;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.relevant-feedback h3 {
+  font-size: 40px;
+  color: #00C4FF;
+  line-height: 46px;
+}
+
+.relevant-feedback p {
+  color: #057BBD;
+  font-size: 18px;
+  line-height: 22px;
+}
+
 .happy-school-benefits {
   background: #057BBD;
   color: #ffffff;
@@ -54,5 +98,38 @@ body {
 
 .happy-school-benefits p {
   font-size: 14px;
+}
+
+.contact-us .contact {
+  background: #057BBD;
+}
+
+.contact-us .contact h3 {
+  font-size: 60px;
+  line-height: 56px;
+  color: #00C4FF;
+  margin-bottom: 50px;
+}
+
+.contact-us .contact h4 {
+  font-size: 30px;
+  line-height: 24px;
+  color: #00C4FF;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.contact-us .contact .btn {
+  background: #ffffff;
+  border-radius: 15px;
+  color: #057BBD;
+  font-size: 24px;
+  line-height: 24px;
+  padding: 20px;
+  font-weight: 500;
+}
+
+.contact-us .contact p {
+  color: #ffffff;
 }
 /*# sourceMappingURL=custom.css.map */

@@ -1,5 +1,6 @@
 $blue:#057BBD;
 $light-blue:#00C4FF;
+$fade-blue:#C6E9FF;
 $white:#ffffff;
 
 body {
@@ -13,6 +14,22 @@ body {
 
 .main-banner {
     background: url(../assets/images/main-banner-bg.png) no-repeat top center;
+
+
+    .remote-learning {
+        color: $white;
+
+        h1 {
+            font-size: 64px;
+            line-height: 64px;
+            color: $fade-blue;
+            margin-bottom: 35px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
 
     .login-section {
         text-align: center;
@@ -40,6 +57,37 @@ body {
     }
 }
 
+.smart-interface {
+    padding-top: 68px;
+    padding-bottom: 200px;
+    background: url(../assets/images/main-banner-bg.png) no-repeat bottom center;
+
+    h3 {
+        font-size: 48px;
+        color: $light-blue;
+    }
+
+    p {
+        color: $blue;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+.relevant-feedback {
+    h3 {
+        font-size: 40px;
+        color: $light-blue;
+        line-height: 46px;
+    }
+
+    p {
+        color: $blue;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
 .happy-school-benefits {
     background: $blue;
     color: $white;
@@ -63,4 +111,39 @@ body {
     }
 
 
+}
+
+.contact-us {
+    .contact {
+        background: $blue;
+
+        h3 {
+            font-size: 60px;
+            line-height: 56px;
+            color: $light-blue;
+            margin-bottom: 50px;
+        }
+
+        h4 {
+            font-size: 30px;
+            line-height: 24px;
+            color: $light-blue;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background: $white;
+            border-radius: 15px;
+            color: $blue;
+            font-size: 24px;
+            line-height: 24px;
+            padding: 20px;
+            font-weight: 500;
+        }
+
+        p {
+            color: $white;
+        }
+    }
 }
