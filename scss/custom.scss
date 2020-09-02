@@ -220,4 +220,15 @@ body {
             margin: auto;
         }
     }
+
+    .copyrights {
+        font-size: 24px;
+        color: $white;
+        background: #A6AAB5;
+    }
 }
+
+
+
+// Responsive Mobile
+@import "mobile";

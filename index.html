@@ -49,7 +49,11 @@
             </div>
             <div class="row">
               <div class="col-md-6">
-                <div class="login-box">
+                <div
+                  class="login-box"
+                  data-toggle="modal"
+                  data-target="#teacherLogin"
+                >
                   <img src="assets/icons/teachers-login.svg" alt="" />
                   <p>Teacher</p>
                 </div>
@@ -295,6 +299,50 @@
           <a href="javascript:;" class="play-icon">
             <img src="assets/icons/play-icon.svg" alt="" />
           </a>
+        </div>
+      </div>
+      <div class="row copyrights align-items-center">
+        <div class="col-md-6">
+          <img src="assets/images/happyschool-logo.svg" alt="" />
+        </div>
+        <div class="col-md-6">
+          <p class="mb-0">&copy; 2020 HappSchool</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Teacher login Modal -->
+    <div
+      class="modal fade"
+      id="teacherLogin"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">...</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
         </div>
       </div>
     </div>
