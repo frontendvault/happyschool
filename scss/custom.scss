@@ -2,6 +2,7 @@ $blue:#057BBD;
 $light-blue:#00C4FF;
 $fade-blue:#C6E9FF;
 $white:#ffffff;
+$grey-fade:#E5EFF5;
 
 body {
     font-family: 'DM Sans', sans-serif;
@@ -228,7 +229,69 @@ body {
     }
 }
 
+.login-modal {
 
+    background: $grey-fade;
+    border-radius: 20px;
+    max-width: 700px;
+    border: 2px solid $light-blue;
+
+
+
+    .modal-content {
+        padding: 15px 120px;
+        background: transparent;
+        position: relative;
+        border: 0;
+
+        h5.modal-title {
+            font-size: 24px;
+            line-height: 32px;
+        }
+
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        .form-control {
+            border: 1px solid $light-blue;
+        }
+
+        .modal-footer {
+            margin: 0;
+
+            .btn {
+                border-radius: 8px;
+                padding: 10px 20px;
+            }
+
+            .btn-cancel {
+                border: 2px solid #DADCE1;
+                color: #DADCE1;
+
+                &:hover {
+                    background: #DADCE1;
+                    color: $blue;
+                }
+            }
+
+            .btn-login {
+                background: $light-blue;
+                color: $white;
+                border: 2px solid $light-blue;
+            }
+        }
+
+        label {
+            display: flex;
+            align-items: center;
+            color: #A6AAB5;
+        }
+    }
+
+}
 
 // Responsive Mobile
 @import "mobile";

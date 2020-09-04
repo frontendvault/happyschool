@@ -239,4 +239,68 @@ body {
   color: #ffffff;
   background: #A6AAB5;
 }
+
+.login-modal {
+  background: #E5EFF5;
+  border-radius: 20px;
+  max-width: 700px;
+  border: 2px solid #00C4FF;
+}
+
+.login-modal .modal-content {
+  padding: 15px 120px;
+  background: transparent;
+  position: relative;
+  border: 0;
+}
+
+.login-modal .modal-content h5.modal-title {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.login-modal .modal-content .close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.login-modal .modal-content .form-control {
+  border: 1px solid #00C4FF;
+}
+
+.login-modal .modal-content .modal-footer {
+  margin: 0;
+}
+
+.login-modal .modal-content .modal-footer .btn {
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+.login-modal .modal-content .modal-footer .btn-cancel {
+  border: 2px solid #DADCE1;
+  color: #DADCE1;
+}
+
+.login-modal .modal-content .modal-footer .btn-cancel:hover {
+  background: #DADCE1;
+  color: #057BBD;
+}
+
+.login-modal .modal-content .modal-footer .btn-login {
+  background: #00C4FF;
+  color: #ffffff;
+  border: 2px solid #00C4FF;
+}
+
+.login-modal .modal-content label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #A6AAB5;
+}
 /*# sourceMappingURL=custom.css.map */
