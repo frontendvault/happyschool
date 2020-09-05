@@ -10,6 +10,13 @@ body {
   background: url(../assets/images/main-banner-bg.png) no-repeat top center;
 }
 
+.main-banner .logo {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #C6E9FF;
+  margin-bottom: 52px;
+}
+
 .main-banner .remote-learning {
   color: #ffffff;
 }
@@ -110,6 +117,7 @@ body {
 .main-banner .login-section {
   text-align: center;
   color: #ffffff;
+  margin-top: -100px;
 }
 
 .main-banner .login-section h4 {
@@ -128,6 +136,41 @@ body {
   font-size: 18px;
   margin-top: 10px;
   margin-bottom: 0;
+}
+
+.main-banner .happSchool-buddy h3 {
+  font-size: 40px;
+  line-height: 50px;
+  color: #00C4FF;
+  margin-bottom: 25px;
+}
+
+.main-banner .happSchool-buddy p {
+  color: #057BBD;
+}
+
+.main-banner .happSchool-buddy p strong {
+  font-size: 20px;
+}
+
+.main-banner .happSchool-buddy .progress {
+  margin-top: 30px;
+}
+
+.main-banner .happSchool-buddy .buddys-health {
+  color: #A6AAB5;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.main-banner .main-banner-bottom {
+  margin-top: 100px;
+}
+
+.main-banner .main-banner-bottom .green-monster {
+  position: absolute;
+  bottom: 0 !important;
 }
 
 .smart-interface {
@@ -312,6 +355,12 @@ body {
 .big-modals .modal-content .modal-footer {
   width: 400px;
   margin: 0 auto;
+}
+
+.big-modals .modal-content .modal-body label span,
+.big-modals .modal-content .modal-footer label span {
+  color: #ff0000;
+  margin-left: 10px;
 }
 
 .big-modals .modal-content .modal-header strong {

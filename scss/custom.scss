@@ -3,6 +3,7 @@ $light-blue:#00C4FF;
 $fade-blue:#C6E9FF;
 $white:#ffffff;
 $grey-fade:#E5EFF5;
+$red:#ff0000;
 
 body {
     font-family: 'DM Sans', sans-serif;
@@ -16,6 +17,12 @@ body {
 .main-banner {
     background: url(../assets/images/main-banner-bg.png) no-repeat top center;
 
+    .logo {
+        margin-top: 40px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid $fade-blue;
+        margin-bottom: 52px;
+    }
 
     .remote-learning {
         color: $white;
@@ -90,6 +97,7 @@ body {
     .login-section {
         text-align: center;
         color: $white;
+        margin-top: -100px;
 
         h4 {
             font-size: 24px;
@@ -109,6 +117,45 @@ body {
                 margin-top: 10px;
                 margin-bottom: 0;
             }
+        }
+    }
+
+    .happSchool-buddy {
+        h3 {
+            font-size: 40px;
+            line-height: 50px;
+            color: $light-blue;
+            margin-bottom: 25px;
+        }
+
+        p {
+            color: $blue;
+
+            strong {
+                font-size: 20px;
+            }
+        }
+
+        .progress {
+            margin-top: 30px;
+
+            .progress-bar {}
+        }
+
+        .buddys-health {
+            color: #A6AAB5;
+            font-size: 18px;
+            margin-top: 10px;
+            margin-bottom: 40px;
+        }
+    }
+
+    .main-banner-bottom {
+        margin-top: 100px;
+
+        .green-monster {
+            position: absolute;
+            bottom: 0 !important;
         }
     }
 }
@@ -301,6 +348,13 @@ body {
         .modal-footer {
             width: 400px;
             margin: 0 auto;
+
+            label {
+                span {
+                    color: $red;
+                    margin-left: 10px;
+                }
+            }
         }
 
         .modal-header {
