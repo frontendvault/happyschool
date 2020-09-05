@@ -147,6 +147,7 @@ body {
 
 .main-banner .happSchool-buddy p {
   color: #057BBD;
+  line-height: 18px;
 }
 
 .main-banner .happSchool-buddy p strong {
@@ -155,6 +156,12 @@ body {
 
 .main-banner .happSchool-buddy .progress {
   margin-top: 30px;
+  border-radius: 24px;
+  width: 50%;
+}
+
+.main-banner .happSchool-buddy .progress .progress-bar {
+  background: #00D058;
 }
 
 .main-banner .happSchool-buddy .buddys-health {
@@ -201,6 +208,37 @@ body {
   color: #057BBD;
   font-size: 18px;
   line-height: 22px;
+}
+
+.relevant-feedback .dropdown-btn .dropdown-section {
+  position: absolute;
+  margin-bottom: -100px;
+  margin-top: 40px;
+  z-index: 1;
+}
+
+.relevant-feedback .dropdown-btn .dropdown-section span {
+  color: #A6AAB5;
+}
+
+.relevant-feedback .dropdown-btn .dropdown-section .btn-group {
+  display: block;
+  float: right;
+}
+
+.relevant-feedback .dropdown-btn .dropdown-section .btn-group .btn {
+  background: transparent;
+  color: #101010;
+  font-size: 20px;
+  line-height: 32px;
+  border: 0;
+  padding: 0;
+}
+
+.relevant-feedback .dropdown-btn .dropdown-section .btn-group .btn:focus {
+  border: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .happy-school-benefits {
