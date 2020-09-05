@@ -293,5 +293,39 @@ body {
 
 }
 
+.big-modals {
+    .modal-content {
+        padding: 20px;
+
+        .modal-body,
+        .modal-footer {
+            width: 400px;
+            margin: 0 auto;
+        }
+
+        .modal-header {
+            strong {
+                color: #A6AAB5;
+            }
+        }
+    }
+
+    small {
+        color: #A6AAB5;
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+
+.submit-request {
+    .modal-content {
+
+        .modal-body,
+        .modal-footer {
+            width: 100%;
+        }
+    }
+}
+
 // Responsive Mobile
 @import "mobile";

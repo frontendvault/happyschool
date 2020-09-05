@@ -295,11 +295,19 @@
         <div class="col-md-auto contact text-center p-md-5">
           <h3>Contact us</h3>
 
-          <button class="btn btn-lg btn-block mb-4">
+          <button
+            class="btn btn-lg btn-block mb-4"
+            data-toggle="modal"
+            data-target="#interestModal"
+          >
             Contact HappSchool Support
           </button>
           <div class="w-100"></div>
-          <button class="btn btn-lg btn-block mb-4">
+          <button
+            class="btn btn-lg btn-block mb-4"
+            data-toggle="modal"
+            data-target="#salesModal"
+          >
             Contact School Sales
           </button>
 
@@ -358,7 +366,7 @@
                   >Username</label
                 >
                 <input
-                  type="email"
+                  type="text"
                   class="form-control form-control-lg col"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
@@ -418,7 +426,7 @@
                   >Username</label
                 >
                 <input
-                  type="email"
+                  type="text"
                   class="form-control form-control-lg col"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
@@ -478,7 +486,7 @@
                   >Username</label
                 >
                 <input
-                  type="email"
+                  type="text"
                   class="form-control form-control-lg col"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
@@ -537,7 +545,7 @@
                   >Username</label
                 >
                 <input
-                  type="email"
+                  type="text"
                   class="form-control form-control-lg col"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
@@ -565,6 +573,191 @@
       </div>
     </div>
 
+    <!-- HappSchool interest  Modal -->
+    <div
+      class="modal big-modals fade"
+      id="interestModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg login-modal">
+        <div class="modal-content">
+          <div class="modal-header border-0 flex-md-column text-md-center">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Thanks for your interest in HappSchool for Schools
+            </h5>
+            <strong
+              >Please fill out this form to request a quote. Someone <br />
+              from our team will get right back to you.</strong
+            >
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">
+                <img src="assets/icons/close.svg" alt="" />
+              </span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group mb-3">
+                <label for="firstName">First Name <span>*</span></label>
+                <input
+                  type="text"
+                  class="form-control form-control-lg col"
+                  id="firstName"
+                />
+              </div>
+              <div class="form-group mb-3">
+                <label for="lastName">Last Name <span>*</span></label>
+                <input
+                  type="text"
+                  class="form-control form-control-lg col"
+                  id="lastName"
+                />
+              </div>
+              <div class="form-group mb-3">
+                <label for="yourRole">Your Role <span>*</span></label>
+                <input
+                  type="text"
+                  class="form-control form-control-lg col"
+                  id="yourRole"
+                />
+              </div>
+              <div class="form-group mb-3">
+                <label for="yourEmail">Email <span>*</span></label>
+                <input
+                  type="text"
+                  class="form-control form-control-lg col"
+                  id="yourEmail"
+                />
+              </div>
+              <div class="form-group mb-3">
+                <label for="yourPhone">Phone </label>
+                <input
+                  type="text"
+                  class="form-control form-control-lg col"
+                  id="yourPhone"
+                />
+              </div>
+              <div class="form-group mb-3">
+                <label for="studentsJoin"
+                  >How many students would use HappSchool? <span>*</span></label
+                >
+                <input
+                  type="text"
+                  class="form-control form-control-lg col"
+                  id="studentsJoin"
+                />
+              </div>
+              <div class="form-group mb-3">
+                <label for="schools">School <span>*</span></label>
+                <input
+                  type="text"
+                  class="form-control form-control-lg col"
+                  id="school"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer border-0 px-0">
+            <button type="button" class="btn btn-cancel" data-dismiss="modal">
+              Cancel
+            </button>
+            <button type="button" class="btn btn-login">Get a Quote!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- HappSchool interest  Modal -->
+    <div
+      class="modal big-modals fade submit-request"
+      id="salesModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg login-modal">
+        <div class="modal-content px-md-5">
+          <div class="modal-header border-0 flex-md-column text-md-center">
+            <h5 class="modal-title" id="exampleModalLabel">Submit a request</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">
+                <img src="assets/icons/close.svg" alt="" />
+              </span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group mb-3">
+                <label for="nameSurname">Name and Surname <span>*</span></label>
+                <input
+                  type="text"
+                  class="form-control form-control-lg col"
+                  id="nameSurname"
+                />
+              </div>
+              <div class="form-group mb-3">
+                <label for="salelsEmail"
+                  >Your email address <span>*</span></label
+                >
+                <input
+                  type="email"
+                  class="form-control form-control-lg col"
+                  id="salelsEmail"
+                />
+              </div>
+              <div class="form-group mb-3">
+                <label for="subject">Subject <span>*</span></label>
+                <input
+                  type="text"
+                  class="form-control form-control-lg col"
+                  id="subject"
+                />
+              </div>
+              <div class="form-group mb-3">
+                <label for="description">Description * <span>*</span></label>
+                <textarea
+                  type="text"
+                  class="form-control form-control-lg col"
+                  id="description"
+                >
+                </textarea>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <small
+                    >Please enter a description of your request. For the fastest
+                    resolution, please include all relevant details to your
+                    request so that our team can support you. This may include
+                    the following: class name, email accounts involved, student
+                    names and/or ID numbers, school name and device
+                    information.</small
+                  >
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer border-0 px-0">
+            <button type="button" class="btn btn-cancel" data-dismiss="modal">
+              Cancel
+            </button>
+            <button type="button" class="btn btn-login">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
@@ -582,7 +775,7 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-    <script>
+    <!-- <script>
       (function () {
         var words = [
             'Chef',
@@ -602,6 +795,6 @@
           });
         }, 3000);
       })();
-    </script>
+    </script> -->
   </body>
 </html>

@@ -303,4 +303,29 @@ body {
           align-items: center;
   color: #A6AAB5;
 }
+
+.big-modals .modal-content {
+  padding: 20px;
+}
+
+.big-modals .modal-content .modal-body,
+.big-modals .modal-content .modal-footer {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.big-modals .modal-content .modal-header strong {
+  color: #A6AAB5;
+}
+
+.big-modals small {
+  color: #A6AAB5;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.submit-request .modal-content .modal-body,
+.submit-request .modal-content .modal-footer {
+  width: 100%;
+}
 /*# sourceMappingURL=custom.css.map */
