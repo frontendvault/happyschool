@@ -220,10 +220,13 @@ body {
 
 .happy-school-benefits h6 {
   font-size: 24px;
+  margin-bottom: 15px;
 }
 
 .happy-school-benefits p {
   font-size: 14px;
+  color: #E5EFF5;
+  line-height: 18px;
 }
 
 .contact-us .contact {
