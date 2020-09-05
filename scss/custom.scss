@@ -220,6 +220,34 @@ body {
 
 }
 
+.testimonial-container {
+
+
+    img.testi-icon {
+        position: absolute;
+        top: -12px;
+        width: 38px;
+        left: 200px;
+    }
+
+    .testimonial {
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+        h6 {
+            font-size: 24px;
+            line-height: 32px;
+            color: $light-blue;
+            font-weight: 900;
+        }
+
+        p {
+            text-align: right;
+            color: $blue;
+        }
+    }
+}
+
 .contact-us {
     .contact {
         background: $blue;

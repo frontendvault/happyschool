@@ -229,6 +229,30 @@ body {
   line-height: 18px;
 }
 
+.testimonial-container img.testi-icon {
+  position: absolute;
+  top: -12px;
+  width: 38px;
+  left: 200px;
+}
+
+.testimonial-container .testimonial {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.testimonial-container .testimonial h6 {
+  font-size: 24px;
+  line-height: 32px;
+  color: #00C4FF;
+  font-weight: 900;
+}
+
+.testimonial-container .testimonial p {
+  text-align: right;
+  color: #057BBD;
+}
+
 .contact-us .contact {
   background: #057BBD;
 }
