@@ -1,0 +1,114 @@
+@media (max-width: 575.98px) {
+    .main-banner {
+        .remote-learning {
+            h1 {
+                font-size: 40px;
+                line-height: 40px;
+            }
+
+            p {
+                line-height: 20px;
+                font-size: 16px;
+            }
+        }
+
+        .login-section {
+            margin-top: 50px;
+
+            .login-box {
+                background: $white;
+                box-shadow: 0px 0px 8px 0px $fade-blue;
+
+
+                p {
+                    color: $blue;
+                }
+            }
+
+            h4 {
+                a {
+                    color: $light-blue !important;
+                }
+            }
+        }
+
+        .main-banner-bottom {
+            .green-monster {
+                position: static;
+            }
+        }
+    }
+
+    .happy-school-benefits {
+        h2 {
+            font-size: 40px;
+            line-height: 42px;
+        }
+
+        h6 {
+            font-size: 18px;
+        }
+
+        p {
+            margin-bottom: 50px;
+        }
+    }
+
+    .smart-interface {
+        padding-bottom: 80px;
+
+        h3 {
+            font-size: 38px;
+        }
+    }
+
+    .relevant-feedback {
+        h3 {
+            font-size: 36px;
+            line-height: 36px;
+            margin-top: 40px;
+        }
+
+        .dropdown-btn {
+            .dropdown-section {
+                position: static;
+
+                br {
+                    display: none;
+                }
+
+                span {
+                    display: block;
+                    text-align: right;
+                }
+            }
+        }
+    }
+
+    .contact-us {
+        .contact {
+            padding: 40px 20px;
+
+            h3 {
+                font-size: 42px;
+                margin-bottom: 20px;
+            }
+
+            .btn {
+                font-size: 20px;
+                padding: 15px;
+            }
+
+        }
+
+        .video-bg {
+            height: 400px;
+        }
+    }
+
+    .login-modal {
+        .modal-content {
+            padding: 20px;
+        }
+    }
+}

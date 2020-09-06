@@ -2,6 +2,10 @@ body {
   font-family: 'DM Sans', sans-serif;
 }
 
+body .modal-backdrop {
+  background: #057BBD;
+}
+
 .container {
   max-width: 1208px;
 }
@@ -441,5 +445,81 @@ body {
 .submit-request .modal-content .modal-body,
 .submit-request .modal-content .modal-footer {
   width: 100%;
+}
+
+@media (max-width: 575.98px) {
+  .main-banner .remote-learning h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .main-banner .remote-learning p {
+    line-height: 20px;
+    font-size: 16px;
+  }
+  .main-banner .login-section {
+    margin-top: 50px;
+  }
+  .main-banner .login-section .login-box {
+    background: #ffffff;
+    -webkit-box-shadow: 0px 0px 8px 0px #C6E9FF;
+            box-shadow: 0px 0px 8px 0px #C6E9FF;
+  }
+  .main-banner .login-section .login-box p {
+    color: #057BBD;
+  }
+  .main-banner .login-section h4 a {
+    color: #00C4FF !important;
+  }
+  .main-banner .main-banner-bottom .green-monster {
+    position: static;
+  }
+  .happy-school-benefits h2 {
+    font-size: 40px;
+    line-height: 42px;
+  }
+  .happy-school-benefits h6 {
+    font-size: 18px;
+  }
+  .happy-school-benefits p {
+    margin-bottom: 50px;
+  }
+  .smart-interface {
+    padding-bottom: 80px;
+  }
+  .smart-interface h3 {
+    font-size: 38px;
+  }
+  .relevant-feedback h3 {
+    font-size: 36px;
+    line-height: 36px;
+    margin-top: 40px;
+  }
+  .relevant-feedback .dropdown-btn .dropdown-section {
+    position: static;
+  }
+  .relevant-feedback .dropdown-btn .dropdown-section br {
+    display: none;
+  }
+  .relevant-feedback .dropdown-btn .dropdown-section span {
+    display: block;
+    text-align: right;
+  }
+  .contact-us .contact {
+    padding: 40px 20px;
+  }
+  .contact-us .contact h3 {
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+  .contact-us .contact .btn {
+    font-size: 20px;
+    padding: 15px;
+  }
+  .contact-us .video-bg {
+    height: 400px;
+  }
+  .login-modal .modal-content {
+    padding: 20px;
+  }
 }
 /*# sourceMappingURL=custom.css.map */
