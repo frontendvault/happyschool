@@ -172,6 +172,8 @@ body .modal-backdrop {
         .custom-chatbot {
             display: flex;
             flex-direction: column;
+            height: 400px;
+            overflow: hidden;
 
             .kid {
                 background: $white;

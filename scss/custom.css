@@ -192,6 +192,8 @@ body .modal-backdrop {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  height: 400px;
+  overflow: hidden;
 }
 
 .main-banner .main-banner-bottom .custom-chatbot .kid {
