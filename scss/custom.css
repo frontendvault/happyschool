@@ -333,6 +333,7 @@ body .modal-backdrop {
   background-size: cover;
   position: relative;
   padding: 24px;
+  height: 550px;
 }
 
 .contact-us .video-bg .play-icon {
