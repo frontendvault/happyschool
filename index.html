@@ -82,7 +82,34 @@
         </div>
       </div>
       <div class="row  main-banner-bottom">
-        <div class="col-md-3"></div>
+        <div class="col-md-3">
+<div class="custom-chatbot">
+
+  
+
+  <div id="1" class="buddy" style="display: none;">Hey there! How are you this morning?</div>
+  <div id="2" class="kid" style="display: none;">Happy</div>
+  <div id="3" class="buddy d-none">So, you feel tired because«?</div>
+  <div id="4" class="kid">: I need sleep</div>
+  <div id="5" class="buddy">: I would feel tired because of that too. This often happens to me in the morning. Did
+    you exercise this morning?</div>
+  <div id="6" class="kid">No</div>
+  <div id="7" class="buddy">Let¶s exercise together before the class starts?</div>
+  <div id="8" class="kid">No</div>
+  <div id="9" class="buddy">Ok, let¶s try something else. Would you like to hear something fun?</div>
+  <div id="10" class="kid">Yes</div>
+  <div class="buddy">Tomatoes and avocados are actually fruits, not vegetables. Did you know that?</div>
+  <div class="kid">No way</div>
+  <div class="buddy">I couldn¶t believe it also, but it is true.</div>
+  <div class="kid">: Tell me more.</div>
+  <div class="buddy">Ok, let¶s try. Slugs have four noses :)</div>
+  <div class="kid">More</div>
+  <div class="buddy">I will be happy to tell more right after your class. Drop me a line if you need any help.
+    Good luck with your class!</div>
+
+</div>
+
+        </div>
         <div class="col-md-9">
           <div class="row">
             <div class="col-md-5 position-relative">
@@ -589,6 +616,45 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
   </script>
+
+<script>
+  jQuery(document).ready(function(){
+
+
+
+    for(var i = 1; i < 5; i++){
+    (function(i){
+        setTimeout(function(){
+            // console.log('value is ', i);
+          jQuery("#"+i).show();
+        }, 1000*(i+2));
+    })(i);
+}
+
+
+      // for(var k=0;k<10;k=Number(k+1)){
+
+//         setTimeout(function(){
+
+//         jQuery("#1").show();
+
+//         },2000);
+
+
+//         setTimeout(function(){
+
+// jQuery("#2").show();
+
+// },3000);
+
+
+
+      // }  
+
+
+  });
+</script>
+
   <!-- <script>
       (function () {
         var words = [

@@ -168,6 +168,28 @@ body .modal-backdrop {
             position: absolute;
             bottom: 0 !important;
         }
+
+        .custom-chatbot {
+            display: flex;
+            flex-direction: column;
+
+            .kid {
+                background: $white;
+                color: #545454;
+                text-align: right;
+                padding: 15px;
+                width: auto;
+                border-radius: 24px;
+            }
+
+            .buddy {
+                background: $light-blue;
+                color: $white;
+                padding: 15px;
+                width: auto;
+                border-radius: 24px;
+            }
+        }
     }
 }
 
