@@ -359,11 +359,6 @@ h6 {
   left: 200px;
 }
 
-.testimonials-bg .testimonial-container .testimonial {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
 .testimonials-bg .testimonial-container .testimonial h6 {
   font-size: 24px;
   line-height: 32px;
@@ -373,6 +368,10 @@ h6 {
 
 .testimonials-bg .testimonial-container .testimonial p {
   color: #057BBD;
+}
+
+.no-padding {
+  padding: 0;
 }
 
 .contact-us .contact {
@@ -831,6 +830,9 @@ xslide
   }
   .testimonials-bg .testimonial-container .testimonial {
     padding: 20px;
+  }
+  .no-padding {
+    padding: 0;
   }
   .contact-us .contact {
     padding: 40px 20px;
