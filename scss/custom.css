@@ -839,5 +839,10 @@ xslide
     padding-bottom: 20px;
     font-size: 20px;
   }
+  .login-modal {
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 /*# sourceMappingURL=custom.css.map */
