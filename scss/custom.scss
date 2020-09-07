@@ -171,6 +171,13 @@ body .modal-backdrop {
 
         .custom-chatbot {
 
+            // Chatbot Scroll
+            ::-webkit-scrollbar {
+                width: auto;
+
+                display: none;
+            }
+
             height: 300px;
 
             overflow-y: scroll;
@@ -239,6 +246,9 @@ body .modal-backdrop {
         line-height: 22px;
     }
 }
+
+
+
 
 .relevant-feedback {
     h3 {
@@ -512,4 +522,5 @@ body .modal-backdrop {
 
 @import"slidingHeading";
 // Responsive Mobile
+@import"ipad";
 @import "mobile";

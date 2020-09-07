@@ -1,0 +1,64 @@
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+
+    .main-banner {
+        .login-section {
+            margin-top: 30px;
+
+            .login-box {
+                border: 1px solid $blue;
+
+                p {
+                    color: $blue;
+                }
+            }
+        }
+
+        .main-banner-bottom {
+            margin-top: 0;
+
+            .position-relative {
+                display: none;
+            }
+
+            .custom-chatbot {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .happSchool-buddy {
+                margin-top: 30px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .smart-interface {
+        padding-bottom: 40px;
+    }
+
+    .relevant-feedback {
+        h3 {
+            margin-top: 20px;
+            font-size: 40px;
+            line-height: 40px;
+        }
+
+        .dropdown-btn {
+            .dropdown-section {
+                right: 20px;
+            }
+        }
+    }
+
+    .contact-us {
+        .contact {
+            margin-top: 20px;
+            padding: 30px;
+        }
+    }
+
+    .copyrights {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+}

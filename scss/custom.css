@@ -190,6 +190,11 @@ body .modal-backdrop {
   font-size: 18px;
 }
 
+.main-banner .main-banner-bottom .custom-chatbot ::-webkit-scrollbar {
+  width: auto;
+  display: none;
+}
+
 .main-banner .main-banner-bottom .custom-chatbot .kid {
   background: #ffffff;
   color: #545454;
@@ -586,6 +591,7 @@ xslide
 .cd-headline.slide .cd-words-wrapper {
   overflow: hidden;
   vertical-align: top;
+  width: auto;
 }
 
 .cd-headline.slide b {
@@ -671,6 +677,56 @@ xslide
   }
 }
 
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .main-banner .login-section {
+    margin-top: 30px;
+  }
+  .main-banner .login-section .login-box {
+    border: 1px solid #057BBD;
+  }
+  .main-banner .login-section .login-box p {
+    color: #057BBD;
+  }
+  .main-banner .main-banner-bottom {
+    margin-top: 0;
+  }
+  .main-banner .main-banner-bottom .position-relative {
+    display: none;
+  }
+  .main-banner .main-banner-bottom .custom-chatbot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-banner .main-banner-bottom .happSchool-buddy {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .smart-interface {
+    padding-bottom: 40px;
+  }
+  .relevant-feedback h3 {
+    margin-top: 20px;
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .relevant-feedback .dropdown-btn .dropdown-section {
+    right: 20px;
+  }
+  .contact-us .contact {
+    margin-top: 20px;
+    padding: 30px;
+  }
+  .copyrights {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+}
+
 @media (max-width: 575.98px) {
   .main-banner .remote-learning h1 {
     font-size: 40px;
@@ -744,6 +800,10 @@ xslide
   }
   .login-modal .modal-content {
     padding: 20px;
+  }
+  .copyrights {
+    text-align: center;
+    padding-bottom: 20px;
   }
 }
 /*# sourceMappingURL=custom.css.map */
