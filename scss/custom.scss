@@ -348,30 +348,35 @@ h6 {
 
 }
 
-.testimonial-container {
+.testimonials-bg {
+    background: url(../assets/images/smart-interface-bg.png) no-repeat center top;
+    background-size: cover;
+
+    .testimonial-container {
 
 
-    img.testi-icon {
-        position: absolute;
-        top: -12px;
-        width: 38px;
-        left: 200px;
-    }
-
-    .testimonial {
-        padding-top: 80px;
-        padding-bottom: 80px;
-
-        h6 {
-            font-size: 24px;
-            line-height: 32px;
-            color: $light-blue;
-            font-weight: 900;
+        img.testi-icon {
+            position: absolute;
+            top: -12px;
+            width: 80px;
+            left: 200px;
         }
 
-        p {
-            text-align: right;
-            color: $blue;
+        .testimonial {
+            padding-top: 80px;
+            padding-bottom: 80px;
+
+            h6 {
+                font-size: 24px;
+                line-height: 32px;
+                color: $light-blue;
+                font-weight: 900;
+            }
+
+            p {
+
+                color: $blue;
+            }
         }
     }
 }

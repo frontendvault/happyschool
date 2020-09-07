@@ -92,6 +92,22 @@
         }
     }
 
+    .testimonials-bg {
+        .testimonial-container {
+            padding: 40px 20px;
+
+            img.testi-icon {
+                width: 30px;
+                left: 20px;
+                top: -15px;
+            }
+
+            .testimonial {
+                padding: 20px;
+            }
+        }
+    }
+
     .contact-us {
         .contact {
             padding: 40px 20px;

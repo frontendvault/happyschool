@@ -3,649 +3,666 @@
 
 <head>
   <!-- Required meta tags -->
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css"/>
-  <link rel="stylesheet" href="scss/custom.css"/>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="scss/custom.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
 
   <title>HappSchool</title>
 </head>
 
 <body>
-<div class="container-fluid main-banner">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12"></div>
-    </div>
-    <div class="row">
-      <div class="col-lg-6 text-center logo">
-        <img src="assets/images/happyschool-logo.svg" alt=""/>
+  <div class="container-fluid main-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12"></div>
       </div>
-      <div class="w-100"></div>
-      <div class="col-lg-7 remote-learning">
+      <div class="row">
+        <div class="col-lg-6 text-center logo">
+          <img src="assets/images/happyschool-logo.svg" alt="" />
+        </div>
+        <div class="w-100"></div>
+        <div class="col-lg-7 remote-learning">
 
 
-        <h1 class="cd-headline slide">
-          Enriched virtual and blended learning 
-          that is
-          <span class="cd-words-wrapper">
+          <h1 class="cd-headline slide">
+            Enriched virtual and blended learning
+            that is
+            <span class="cd-words-wrapper">
               <b class="is-visible">easy</b>
               <b>student-centred</b>
               <b>intuitive</b>
             </span>
-        </h1>
+          </h1>
 
-        <p>
-          HappSchool is the intelligent student-centred platform for
-          holistic classroom management that features AI, emotional
-          recognition and gamification <br/>
-          <br/>
+          <p>
+            HappSchool is the intelligent student-centred platform for
+            holistic classroom management that features AI, emotional
+            recognition and gamification <br />
+            <br />
 
-          HappSchool addresses the challenge to motivate and engage students
-          by creating meaningful learning experiences.
-        </p>
-      </div>
-      <div class="col-lg-4 offset-lg-1 login-section">
-        <div class="row">
-          <div class="col-lg-12">
-            <h4>Log in as a...</h4>
-          </div>
+            HappSchool addresses the challenge to motivate and engage students
+            by creating meaningful learning experiences.
+          </p>
         </div>
-        <div class="row">
-          <div class="col-sm-6 col-lg-6">
-            <div class="login-box" data-toggle="modal" data-target="#teacherLogin">
-              <img src="assets/icons/teachers-login.svg" alt=""/>
-              <p>Teacher</p>
+        <div class="col-lg-4 offset-lg-1 login-section">
+          <div class="row">
+            <div class="col-lg-12">
+              <h4>Log in as a...</h4>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-6">
-            <div class="login-box" data-toggle="modal" data-target="#studentLogin">
-              <img src="assets/icons/student-login.svg" alt=""/>
-              <p>Student</p>
+          <div class="row">
+            <div class="col-sm-6 col-lg-6">
+              <div class="login-box" data-toggle="modal" data-target="#teacherLogin">
+                <img src="assets/icons/teachers-login.svg" alt="" />
+                <p>Teacher</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-6">
+              <div class="login-box" data-toggle="modal" data-target="#studentLogin">
+                <img src="assets/icons/student-login.svg" alt="" />
+                <p>Student</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-6">
+              <div class="login-box" data-toggle="modal" data-target="#parentLogin">
+                <img src="assets/icons/parents-login.svg" alt="" />
+                <p>Parent</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-6">
+              <div class="login-box" data-toggle="modal" data-target="#schoolLeaderLogin">
+                <img src="assets/icons/school-leader-login.svg" alt="" />
+                <p>School Leader</p>
+              </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-6">
-            <div class="login-box" data-toggle="modal" data-target="#parentLogin">
-              <img src="assets/icons/parents-login.svg" alt=""/>
-              <p>Parent</p>
+          <div class="row">
+            <div class="col-lg-12">
+              <h4><a href="" class="text-light">Sign up</a></h4>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-6">
-            <div class="login-box" data-toggle="modal" data-target="#schoolLeaderLogin">
-              <img src="assets/icons/school-leader-login.svg" alt=""/>
-              <p>School Leader</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <h4><a href="" class="text-light">Sign up</a></h4>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row  main-banner-bottom">
-      <div class="col-lg-3">
-        <div id="chatbot" class="custom-chatbot">
-          <div id="1" class="buddy" style="display: none;"> <strong> Buddy:</strong> Hey there! How are you this morning? 
-          
-
-          </div>
-          <div id="2" class="kid" style="display: none;"> <strong>Kid:</strong>             <img src="assets/images/emoticon.png" alt=""></div>
-          <div id="3" class="buddy" style="display: none;"> <strong>Buddy:</strong> So, you feel tired because?</div>
-          <div id="4" class="kid" style="display: none;"> <strong>Kid:</strong> I need sleep</div>
-          <div id="5" class="buddy" style="display: none;"> <strong>Buddy:</strong> I would feel tired because of that too. This often happens to me in the morning.
-            Did
-            you exercise this morning?
-          </div>
-          <div id="6" class="kid" style="display: none;"> <strong>Kid:</strong> No</div>
-          <div id="7" class="buddy" style="display: none;"> <strong>Buddy:</strong> Let's exercise together before the class starts?</div>
-          <div id="8" class="kid" style="display: none;"> <strong>Kid:</strong> No</div>
-          <div id="9" class="buddy" style="display: none;"> <strong>Buddy:</strong> Ok, let's try something else. Would you like to hear something fun?</div>
-          <div id="10" class="kid" style="display: none;"> <strong>Kid:</strong> Yes</div>
-          <div id="11" class="buddy" style="display: none;"> <strong>Buddy:</strong> Tomatoes and avocados are actually fruits, not vegetables. Did you know that?</div>
-          <div id="12" class="kid" style="display: none;"> <strong>Kid:</strong> No way</div>
-          <div id="13" class="buddy" style="display: none;"> <strong>Buddy:</strong> I  couldn't believe it also, but it is true.</div>
-          <div id="14" class="kid" style="display: none;"> <strong>Kid:</strong>  Tell me more.</div>
-          <div id="15" class="buddy" style="display: none;"> <strong>Buddy:</strong>  Ok, let's try. Slugs have four noses :)</div>
-          <div id="16" class="kid" style="display: none;"> <strong>Kid:</strong> More</div>
-          <div id="17" class="buddy" style="display: none;"> <strong>Buddy:</strong> I will be happy to tell more right after your class. Drop me a line if you need any help.
-            Good luck with your class!
-          </div>
-
-        </div>
-        <div class="chatbox-input">
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Aa" disabled>
-            <div class="input-group-append ">
-              <span class="input-group-text bg-transparent p-0 border-0" id="basic-addon2"><img src="assets/icons/send.svg" class="mr-3" alt=""> </span>
-            </div>
-          </div>
-
         </div>
       </div>
-      <div class="col-lg-9">
-        <div class="row">
-          <div class="col-lg-5 position-relative">
-            <img src="assets/images/green-monster.svg" class="img-fluid green-monster" alt=""/>
-          </div>
-          <div class="col-lg-7 happSchool-buddy">
-            <h3>Meet HappSchool Buddy</h3>
-            <p>
-              It’s a student <strong>experience chatbot</strong> which chats
-              with your students and <strong>engages those who are unhappy, at risk, disengaged or have
-              extra needs.</strong>
-              <br/>
-              <br/>
-              AI Buddy powered with social and emotional elements encourages
-              students as they go through the learning process, makes
-              learning fun and inclusive. AI Buddy reaches out to students
-              in a personalised, timely manner, interprets sentiment, and
-              responds empathetically, assisting them with tasks, schedules,
-              deadlines. <br> <br> Gamified experience through gained points and
-              completed goals contribute to the Happiness level of the AI
-              Buddy. The better performance, the more happy and animated
-              Buddy becomes. This motivates students to stay focused on
-              their goals.
-            </p>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0"
-                   aria-valuemax="100"></div>
+      <div class="row  main-banner-bottom">
+        <div class="col-lg-3">
+          <div id="chatbot" class="custom-chatbot">
+            <div id="1" class="buddy" style="display: none;"> <strong> Buddy:</strong> Hey there! How are you this
+              morning?
+
+
             </div>
-            <div class="buddys-health"><img src="assets/icons/buddys-happiness.svg" alt=""> <span>Buddy's happiness
+            <div id="2" class="kid" style="display: none;"> <strong>Kid:</strong> <img src="assets/images/emoticon.png"
+                alt=""></div>
+            <div id="3" class="buddy" style="display: none;"> <strong>Buddy:</strong> So, you feel tired because?</div>
+            <div id="4" class="kid" style="display: none;"> <strong>Kid:</strong> I need sleep</div>
+            <div id="5" class="buddy" style="display: none;"> <strong>Buddy:</strong> I would feel tired because of that
+              too. This often happens to me in the morning.
+              Did
+              you exercise this morning?
+            </div>
+            <div id="6" class="kid" style="display: none;"> <strong>Kid:</strong> No</div>
+            <div id="7" class="buddy" style="display: none;"> <strong>Buddy:</strong> Let's exercise together before the
+              class starts?</div>
+            <div id="8" class="kid" style="display: none;"> <strong>Kid:</strong> No</div>
+            <div id="9" class="buddy" style="display: none;"> <strong>Buddy:</strong> Ok, let's try something else.
+              Would you like to hear something fun?</div>
+            <div id="10" class="kid" style="display: none;"> <strong>Kid:</strong> Yes</div>
+            <div id="11" class="buddy" style="display: none;"> <strong>Buddy:</strong> Tomatoes and avocados are
+              actually fruits, not vegetables. Did you know that?</div>
+            <div id="12" class="kid" style="display: none;"> <strong>Kid:</strong> No way</div>
+            <div id="13" class="buddy" style="display: none;"> <strong>Buddy:</strong> I couldn't believe it also, but
+              it is true.</div>
+            <div id="14" class="kid" style="display: none;"> <strong>Kid:</strong> Tell me more.</div>
+            <div id="15" class="buddy" style="display: none;"> <strong>Buddy:</strong> Ok, let's try. Slugs have four
+              noses :)</div>
+            <div id="16" class="kid" style="display: none;"> <strong>Kid:</strong> More</div>
+            <div id="17" class="buddy" style="display: none;"> <strong>Buddy:</strong> I will be happy to tell more
+              right after your class. Drop me a line if you need any help.
+              Good luck with your class!
+            </div>
+
+          </div>
+          <div class="chatbox-input">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Aa" disabled>
+              <div class="input-group-append ">
+                <span class="input-group-text bg-transparent p-0 border-0" id="basic-addon2"><img
+                    src="assets/icons/send.svg" class="mr-3" alt=""> </span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <div class="row">
+            <div class="col-lg-5 position-relative">
+              <img src="assets/images/green-monster.svg" class="img-fluid green-monster" alt="" />
+            </div>
+            <div class="col-lg-7 happSchool-buddy">
+              <h3>Meet HappSchool Buddy</h3>
+              <p>
+                It’s a student <strong>experience chatbot</strong> which chats
+                with your students and <strong>engages those who are unhappy, at risk, disengaged or have
+                  extra needs.</strong>
+                <br />
+                <br />
+                AI Buddy powered with social and emotional elements encourages
+                students as they go through the learning process, makes
+                learning fun and inclusive. AI Buddy reaches out to students
+                in a personalised, timely manner, interprets sentiment, and
+                responds empathetically, assisting them with tasks, schedules,
+                deadlines. <br> <br> Gamified experience through gained points and
+                completed goals contribute to the Happiness level of the AI
+                Buddy. The better performance, the more happy and animated
+                Buddy becomes. This motivates students to stay focused on
+                their goals.
+              </p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+              <div class="buddys-health"><img src="assets/icons/buddys-happiness.svg" alt=""> <span>Buddy's happiness
                   75%</span> </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<div class="container-fluid happy-school-benefits py-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h2>
-          HappSchool benefits all key stakeholders in the education
-          ecosystem
-        </h2>
-        <h6 class="mb-5"> It creates a powerful classroom management for primary schools</h6>
+  <div class="container-fluid happy-school-benefits py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>
+            HappSchool benefits all key stakeholders in the education
+            ecosystem
+          </h2>
+          <h6 class="mb-5"> It creates a powerful classroom management for primary schools</h6>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-6 col-lg-3 pr-lg-5 mb-sm-3">
-        <img src="assets/icons/students-intract-with-ai.svg" alt=""/>
-        <h6>Students interact <br> with AI</h6>
-        <p class="mr-lg-3">
-          Student work from year-to-year and class-to-class in a single,
-          streamlined portfolio. Plus, families remain connected
-          automatically after signing up once
-        </p>
-      </div>
-      <div class="col-sm-6 col-lg-3 pr-lg-5 mb-sm-3">
-        <img src="assets/icons/gain-insights.svg" alt=""/>
-        <h6>Teacher gains <br> in-depth insights <br> and saves time</h6>
-        <p class="mr-lg-3">
-          Teachers deeply understand student emotional well-being, thinking
-          and progress — enabling them to teach better
-        </p>
-      </div>
-      <div class="col-sm-6 col-lg-3 pr-lg-5 mb-sm-3">
-        <img src="assets/icons/family-connect.svg" alt=""/>
-        <h6>Families <br> connect</h6>
-        <p class="mr-lg-3">
-          Families gain a window into their student’s learning and engage
-          with school happenings
-        </p>
-      </div>
-      <div class="col-sm-6 col-lg-3 pr-lg-5 mb-sm-3">
-        <img src="assets/icons/privacy-by-design.svg" alt=""/>
-        <h6>Built with privacy <br> by design</h6>
-        <p class="mr-lg-3">
-          Designed to protect your privacy and security, and give you
-          control over your information. We don’t own anything you add to
-          HappSchool: you do
-        </p>
+      <div class="row">
+        <div class="col-sm-6 col-lg-3 pr-lg-5 mb-sm-3">
+          <img src="assets/icons/students-intract-with-ai.svg" alt="" />
+          <h6>Students interact <br> with AI</h6>
+          <p class="mr-lg-3">
+            Student work from year-to-year and class-to-class in a single,
+            streamlined portfolio. Plus, families remain connected
+            automatically after signing up once
+          </p>
+        </div>
+        <div class="col-sm-6 col-lg-3 pr-lg-5 mb-sm-3">
+          <img src="assets/icons/gain-insights.svg" alt="" />
+          <h6>Teacher gains <br> in-depth insights <br> and saves time</h6>
+          <p class="mr-lg-3">
+            Teachers deeply understand student emotional well-being, thinking
+            and progress — enabling them to teach better
+          </p>
+        </div>
+        <div class="col-sm-6 col-lg-3 pr-lg-5 mb-sm-3">
+          <img src="assets/icons/family-connect.svg" alt="" />
+          <h6>Families <br> connect</h6>
+          <p class="mr-lg-3">
+            Families gain a window into their student’s learning and engage
+            with school happenings
+          </p>
+        </div>
+        <div class="col-sm-6 col-lg-3 pr-lg-5 mb-sm-3">
+          <img src="assets/icons/privacy-by-design.svg" alt="" />
+          <h6>Built with privacy <br> by design</h6>
+          <p class="mr-lg-3">
+            Designed to protect your privacy and security, and give you
+            control over your information. We don’t own anything you add to
+            HappSchool: you do
+          </p>
+        </div>
       </div>
     </div>
   </div>
-</div>
-<div class="container testimonial-container">
-  <div class="row position-relative">
-    <img src="assets/icons/testimonial-icon.png" class="testi-icon" alt="">
-    <div class="col-lg-8 offset-lg-2 testimonial">
-      <h6 class="mb-5">Even if I tripled my number of direct contact with each student, that kind of insight would
-        never have come.
-      </h6>
-      <p>Teacher from Birstonas gymnasium share takeaways from <br> experience with HappSchool</p>
+  <div class="container-fluid testimonials-bg">
+    <div class="container testimonial-container px-0">
+      <div class="row position-relative">
+        <img src="assets/icons/testimonial-icon.png" class="testi-icon" alt="">
+        <div class="col-lg-8 offset-lg-2 testimonial">
+          <h6 class="mb-md-5">Even if I tripled my number of direct contact with each student, that kind of insight would
+            never have come.
+          </h6>
+         
 
+        </div>
+        <div class="col-md-6 offset-md-6 testimonial p-md-0 pb-md-4 ">
+          <p>Teacher from Birstonas gymnasium share takeaways from <br> experience with HappSchool</p>
+        </div>
+      </div>
     </div>
   </div>
-</div>
 
-<div class="container-fluid smart-interface">
-  <div class="container">
+  <div class="container-fluid smart-interface">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md mb-5 mb-lg-0">
+          <img src="assets/images/smart-interface.svg" alt="" class="img-fluid" />
+        </div>
+        <div class="col-lg-auto px-lg-0">
+          <h3>Smart interface</h3>
+
+          <p>
+            Clear and clean design <br />
+            Intuitive <br />
+            User-friendly <br />
+            Made for primary education <br />
+            professionals and kids in mind.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid relevant-feedback">
     <div class="row align-items-center">
-      <div class="col-md mb-5 mb-lg-0">
-        <img src="assets/images/smart-interface.svg" alt="" class="img-fluid"/>
+      <div class="col-lg-6 px-lg-0">
+        <img src="assets/images/teachers-save-time.svg" alt="" class="img-fluid" />
       </div>
-      <div class="col-lg-auto px-lg-0">
-        <h3>Smart interface</h3>
+      <div class="col-lg-6 extra-padding">
+        <h3>
+          Teachers save time and are able to focus their efforts on individual
+          students 
+        </h3>
+        <p>
+          Teachers instantly get the picture of students’ emotional wellbeing,
+          level of difficulty of the tasks, identify and alert in real-time
+          any ‘at risk’ students who required immediate intervention and
+          support. Chatbot is built into all lessons which saves teachers time
+          in answering student questions on schedule, assignments, deadlines.
+        </p>
+      </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-lg-6 extra-padding">
+        <h3>
+          Parents get immediate and relevant feedback to support their child’s
+          learning journey 
+        </h3>
+        <p>
+          Parents get notified in real-time on their child’s progress in the
+          classroom. They are informed of their child’s learning gaps which
+          allows them to provide appropriate support to aid their learning.
+          <br />
+          <br />
+          Moreover, parents get immediate feedback from teachers on their
+          child’s progress. HappSchool provides relevant and real-time data
+          that enables immediate intervention and support to students
+        </p>
+      </div>
+      <div class="col-lg-6 px-lg-0">
+        <img src="assets/images/parents-get-geedback.svg" alt="" class="img-fluid" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 offset-lg-4 position-relative dropdown-btn">
+
+        <div class="dropdown-section"><span>Student</span> <br>
+          <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              John Smith
+            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+              <button class="dropdown-item" type="button">Action</button>
+              <button class="dropdown-item" type="button">Another action</button>
+              <button class="dropdown-item" type="button">Something else here</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-lg-6 p-xl-5">
+        <img src="assets/images/better-understanding-individual-students.svg" alt="" class="img-fluid" />
+      </div>
+      <div class="col-lg-6 p-xl-5">
+        <h3>Better Understanding Individual Students  </h3>
+        <p>
+          HappSchool is an absolute game-changer for teachers. It is a
+          streamlined way for kids to show their thinking and understanding in
+          ways that teachers usually don’t see.
+        </p>
+        <p>
+          Which students are struggling and what do they need help with?
+          Actionable data insights to teachers and school leaders helps to
+          effectively support students learning where they need it most.
+        </p>
+        <p>
+          HappSchool offers the ability to interrogate and understand the
+          nuanced cognitive, emotional, and motivational processes that shape
+          education in any learning environment – blended or remote.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid contact-us">
+    <div class="row">
+      <div class="col-lg-auto contact text-center p-lg-5">
+        <h3>Contact us</h3>
+
+        <button class="btn btn-lg btn-block mb-4" data-toggle="modal" data-target="#interestModal">
+          Contact HappSchool Support
+        </button>
+        <div class="w-100"></div>
+        <button class="btn btn-lg btn-block mb-4" data-toggle="modal" data-target="#salesModal">
+          Contact School Sales
+        </button>
+
+        <h4>Our Office</h4>
 
         <p>
-          Clear and clean design <br/>
-          Intuitive <br/>
-          User-friendly <br/>
-          Made for primary education <br/>
-          professionals and kids in mind.
+          71-75 Shelton Street, Covent Garden, <br />
+          WC2H 9JQ, London, United Kingdom
         </p>
       </div>
+      <div class="col video-bg">
+        <a href="javascript:;" class="play-icon">
+          <img src="assets/icons/play-icon.svg" alt="" />
+        </a>
+      </div>
+    </div>
+    <div class="row copyrights align-items-center">
+      <div class="col-lg-6">
+        <img src="assets/images/happyschool-logo.svg" alt="" />
+      </div>
+      <div class="col-lg-6">
+        <p class="mb-0">&copy; 2020 HappSchool</p>
+      </div>
     </div>
   </div>
-</div>
-<div class="container-fluid relevant-feedback">
-  <div class="row align-items-center">
-    <div class="col-lg-6 px-lg-0">
-      <img src="assets/images/teachers-save-time.svg" alt="" class="img-fluid"/>
-    </div>
-    <div class="col-lg-6 extra-padding">
-      <h3>
-        Teachers save time and are able to focus their efforts on individual
-        students 
-      </h3>
-      <p>
-        Teachers instantly get the picture of students’ emotional wellbeing,
-        level of difficulty of the tasks, identify and alert in real-time
-        any ‘at risk’ students who required immediate intervention and
-        support. Chatbot is built into all lessons which saves teachers time
-        in answering student questions on schedule, assignments, deadlines.
-      </p>
-    </div>
-  </div>
-  <div class="row align-items-center">
-    <div class="col-lg-6 extra-padding">
-      <h3>
-        Parents get immediate and relevant feedback to support their child’s
-        learning journey 
-      </h3>
-      <p>
-        Parents get notified in real-time on their child’s progress in the
-        classroom. They are informed of their child’s learning gaps which
-        allows them to provide appropriate support to aid their learning.
-        <br/>
-        <br/>
-        Moreover, parents get immediate feedback from teachers on their
-        child’s progress. HappSchool provides relevant and real-time data
-        that enables immediate intervention and support to students
-      </p>
-    </div>
-    <div class="col-lg-6 px-lg-0">
-      <img src="assets/images/parents-get-geedback.svg" alt="" class="img-fluid"/>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-6 offset-lg-4 position-relative dropdown-btn">
 
-      <div class="dropdown-section"><span>Student</span> <br>
-        <div class="btn-group">
-          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-                  aria-expanded="false">
-            John Smith
+
+  <!-- Teacher login Modal -->
+  <div class="modal fade" id="teacherLogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg login-modal">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <h5 class="modal-title" id="exampleModalLabel">
+            Log in as a Teacher
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <img src="assets/icons/close.svg" alt="" />
+            </span>
           </button>
-          <div class="dropdown-menu dropdown-menu-right">
-            <button class="dropdown-item" type="button">Action</button>
-            <button class="dropdown-item" type="button">Another action</button>
-            <button class="dropdown-item" type="button">Something else here</button>
-          </div>
         </div>
-
-      </div>
-    </div>
-  </div>
-  <div class="row align-items-center">
-    <div class="col-lg-6 p-xl-5">
-      <img src="assets/images/better-understanding-individual-students.svg" alt="" class="img-fluid"/>
-    </div>
-    <div class="col-lg-6 p-xl-5">
-      <h3>Better Understanding Individual Students  </h3>
-      <p>
-        HappSchool is an absolute game-changer for teachers. It is a
-        streamlined way for kids to show their thinking and understanding in
-        ways that teachers usually don’t see.
-      </p>
-      <p>
-        Which students are struggling and what do they need help with?
-        Actionable data insights to teachers and school leaders helps to
-        effectively support students learning where they need it most.
-      </p>
-      <p>
-        HappSchool offers the ability to interrogate and understand the
-        nuanced cognitive, emotional, and motivational processes that shape
-        education in any learning environment – blended or remote.
-      </p>
-    </div>
-  </div>
-</div>
-<div class="container-fluid contact-us">
-  <div class="row">
-    <div class="col-lg-auto contact text-center p-lg-5">
-      <h3>Contact us</h3>
-
-      <button class="btn btn-lg btn-block mb-4" data-toggle="modal" data-target="#interestModal">
-        Contact HappSchool Support
-      </button>
-      <div class="w-100"></div>
-      <button class="btn btn-lg btn-block mb-4" data-toggle="modal" data-target="#salesModal">
-        Contact School Sales
-      </button>
-
-      <h4>Our Office</h4>
-
-      <p>
-        71-75 Shelton Street, Covent Garden, <br/>
-        WC2H 9JQ, London, United Kingdom
-      </p>
-    </div>
-    <div class="col video-bg">
-      <a href="javascript:;" class="play-icon">
-        <img src="assets/icons/play-icon.svg" alt=""/>
-      </a>
-    </div>
-  </div>
-  <div class="row copyrights align-items-center">
-    <div class="col-lg-6">
-      <img src="assets/images/happyschool-logo.svg" alt=""/>
-    </div>
-    <div class="col-lg-6">
-      <p class="mb-0">&copy; 2020 HappSchool</p>
-    </div>
-  </div>
-</div>
-
-
-<!-- Teacher login Modal -->
-<div class="modal fade" id="teacherLogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg login-modal">
-    <div class="modal-content">
-      <div class="modal-header border-0">
-        <h5 class="modal-title" id="exampleModalLabel">
-          Log in as a Teacher
-        </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">
-              <img src="assets/icons/close.svg" alt=""/>
-            </span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="row mb-3">
-            <label for="exampleInputEmail1" class="col-lg-4">Username</label>
-            <input type="text" class="form-control form-control-lg col" id="exampleInputEmail1"
-                   aria-describedby="emailHelp"/>
-          </div>
-          <div class="row">
-            <label for="exampleInputPassword1" class="col-lg-4">Password</label>
-            <input type="password" class="form-control col form-control-lg" id="exampleInputPassword1"/>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer border-0 px-0">
-        <button type="button" class="btn btn-cancel" data-dismiss="modal">
-          Cancel
-        </button>
-        <button type="button" class="btn btn-login">Login</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Login as Student Modal -->
-<div class="modal fade" id="studentLogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg login-modal">
-    <div class="modal-content">
-      <div class="modal-header border-0">
-        <h5 class="modal-title" id="exampleModalLabel">
-          Log in as a Student
-        </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">
-              <img src="assets/icons/close.svg" alt=""/>
-            </span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="row mb-3">
-            <label for="exampleInputEmail1" class="col-lg-4">Username</label>
-            <input type="text" class="form-control form-control-lg col" id="exampleInputEmail1"
-                   aria-describedby="emailHelp"/>
-          </div>
-          <div class="row">
-            <label for="exampleInputPassword1" class="col-lg-4">Password</label>
-            <input type="password" class="form-control col form-control-lg" id="exampleInputPassword1"/>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer border-0 px-0">
-        <button type="button" class="btn btn-cancel" data-dismiss="modal">
-          Cancel
-        </button>
-        <button type="button" class="btn btn-login">Login</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Login as Parent Modal -->
-<div class="modal fade" id="parentLogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg login-modal">
-    <div class="modal-content">
-      <div class="modal-header border-0">
-        <h5 class="modal-title" id="exampleModalLabel">
-          Log in as a Parent
-        </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">
-              <img src="assets/icons/close.svg" alt=""/>
-            </span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="row mb-3">
-            <label for="exampleInputEmail1" class="col-lg-4">Username</label>
-            <input type="text" class="form-control form-control-lg col" id="exampleInputEmail1"
-                   aria-describedby="emailHelp"/>
-          </div>
-          <div class="row">
-            <label for="exampleInputPassword1" class="col-lg-4">Password</label>
-            <input type="password" class="form-control col form-control-lg" id="exampleInputPassword1"/>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer border-0 px-0">
-        <button type="button" class="btn btn-cancel" data-dismiss="modal">
-          Cancel
-        </button>
-        <button type="button" class="btn btn-login">Login</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Login as school leader  Modal -->
-<div class="modal fade" id="schoolLeaderLogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg login-modal">
-    <div class="modal-content">
-      <div class="modal-header border-0">
-        <h5 class="modal-title" id="exampleModalLabel">
-          Log in as a School Leader
-        </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">
-              <img src="assets/icons/close.svg" alt=""/>
-            </span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="row mb-3">
-            <label for="exampleInputEmail1" class="col-lg-4">Username</label>
-            <input type="text" class="form-control form-control-lg col" id="exampleInputEmail1"
-                   aria-describedby="emailHelp"/>
-          </div>
-          <div class="row">
-            <label for="exampleInputPassword1" class="col-lg-4">Password</label>
-            <input type="password" class="form-control col form-control-lg" id="exampleInputPassword1"/>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer border-0 px-0">
-        <button type="button" class="btn btn-cancel" data-dismiss="modal">
-          Cancel
-        </button>
-        <button type="button" class="btn btn-login">Login</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- HappSchool interest  Modal -->
-<div class="modal big-modals fade" id="interestModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-     aria-hidden="true">
-  <div class="modal-dialog modal-lg login-modal">
-    <div class="modal-content">
-      <div class="modal-header border-0 flex-lg-column text-lg-center align-items-center">
-        <h5 class="modal-title" id="exampleModalLabel">
-          Thanks for your interest in HappSchool for Schools
-        </h5>
-        <strong>Please fill out this form to request a quote. Someone <br/>
-          from our team will get right back to you.</strong>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">
-              <img src="assets/icons/close.svg" alt=""/>
-            </span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group mb-3">
-            <label for="firstName">First Name <span>*</span></label>
-            <input type="text" class="form-control form-control-lg col" id="firstName"/>
-          </div>
-          <div class="form-group mb-3">
-            <label for="lastName">Last Name <span>*</span></label>
-            <input type="text" class="form-control form-control-lg col" id="lastName"/>
-          </div>
-          <div class="form-group mb-3">
-            <label for="yourRole">Your Role <span>*</span></label>
-            <input type="text" class="form-control form-control-lg col" id="yourRole"/>
-          </div>
-          <div class="form-group mb-3">
-            <label for="yourEmail">Email <span>*</span></label>
-            <input type="text" class="form-control form-control-lg col" id="yourEmail"/>
-          </div>
-          <div class="form-group mb-3">
-            <label for="yourPhone">Phone </label>
-            <input type="text" class="form-control form-control-lg col" id="yourPhone"/>
-          </div>
-          <div class="form-group mb-3">
-            <label for="studentsJoin">How many students would use HappSchool? <span>*</span></label>
-            <input type="text" class="form-control form-control-lg col" id="studentsJoin"/>
-          </div>
-          <div class="form-group mb-3">
-            <label for="schools">School <span>*</span></label>
-            <input type="text" class="form-control form-control-lg col" id="school"/>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer border-0 px-0">
-        <button type="button" class="btn btn-cancel" data-dismiss="modal">
-          Cancel
-        </button>
-        <button type="button" class="btn btn-login">Get a Quote!</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- HappSchool interest  Modal -->
-<div class="modal big-modals fade submit-request" id="salesModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-     aria-hidden="true">
-  <div class="modal-dialog modal-lg login-modal">
-    <div class="modal-content px-lg-5">
-      <div class="modal-header border-0 flex-lg-column text-lg-center">
-        <h5 class="modal-title" id="exampleModalLabel">Submit a request</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">
-              <img src="assets/icons/close.svg" alt=""/>
-            </span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group mb-3">
-            <label for="nameSurname">Name and Surname <span>*</span></label>
-            <input type="text" class="form-control form-control-lg col" id="nameSurname"/>
-          </div>
-          <div class="form-group mb-3">
-            <label for="salelsEmail">Your email address <span>*</span></label>
-            <input type="email" class="form-control form-control-lg col" id="salelsEmail"/>
-          </div>
-          <div class="form-group mb-3">
-            <label for="subject">Subject <span>*</span></label>
-            <input type="text" class="form-control form-control-lg col" id="subject"/>
-          </div>
-          <div class="form-group mb-3">
-            <label for="description">Description * <span>*</span></label>
-            <textarea type="text" class="form-control form-control-lg col" id="description">
-                </textarea>
-          </div>
-          <div class="row">
-            <div class="col">
-              <small>Please enter a description of your request. For the fastest
-                resolution, please include all relevant details to your
-                request so that our team can support you. This may include
-                the following: class name, email accounts involved, student
-                names and/or ID numbers, school name and device
-                information.</small>
+        <div class="modal-body">
+          <form>
+            <div class="row mb-3">
+              <label for="exampleInputEmail1" class="col-lg-4">Username</label>
+              <input type="text" class="form-control form-control-lg col" id="exampleInputEmail1"
+                aria-describedby="emailHelp" />
             </div>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer border-0 px-0">
-        <button type="button" class="btn btn-cancel" data-dismiss="modal">
-          Cancel
-        </button>
-        <button type="button" class="btn btn-login">Submit</button>
+            <div class="row">
+              <label for="exampleInputPassword1" class="col-lg-4">Password</label>
+              <input type="password" class="form-control col form-control-lg" id="exampleInputPassword1" />
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer border-0 px-0">
+          <button type="button" class="btn btn-cancel" data-dismiss="modal">
+            Cancel
+          </button>
+          <button type="button" class="btn btn-login">Login</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">-->
-<script src="js/jquery-3.5.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/heading-slide.js"></script>
+  <!-- Login as Student Modal -->
+  <div class="modal fade" id="studentLogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg login-modal">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <h5 class="modal-title" id="exampleModalLabel">
+            Log in as a Student
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <img src="assets/icons/close.svg" alt="" />
+            </span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="row mb-3">
+              <label for="exampleInputEmail1" class="col-lg-4">Username</label>
+              <input type="text" class="form-control form-control-lg col" id="exampleInputEmail1"
+                aria-describedby="emailHelp" />
+            </div>
+            <div class="row">
+              <label for="exampleInputPassword1" class="col-lg-4">Password</label>
+              <input type="password" class="form-control col form-control-lg" id="exampleInputPassword1" />
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer border-0 px-0">
+          <button type="button" class="btn btn-cancel" data-dismiss="modal">
+            Cancel
+          </button>
+          <button type="button" class="btn btn-login">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<script>
-  jQuery(document).ready(function () {
-    for (var i = 1; i < 18; i++) {
-      (function (i) {
-        setTimeout(function () {
-          jQuery("#" + i).show();
-          jQuery("#chatbot").animate({scrollTop: $("#chatbot")[0].scrollHeight}, 2000);
-        }, 2000 * (i + 2));
-      })(i);
-    }
-  });
-</script>
+  <!-- Login as Parent Modal -->
+  <div class="modal fade" id="parentLogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg login-modal">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <h5 class="modal-title" id="exampleModalLabel">
+            Log in as a Parent
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <img src="assets/icons/close.svg" alt="" />
+            </span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="row mb-3">
+              <label for="exampleInputEmail1" class="col-lg-4">Username</label>
+              <input type="text" class="form-control form-control-lg col" id="exampleInputEmail1"
+                aria-describedby="emailHelp" />
+            </div>
+            <div class="row">
+              <label for="exampleInputPassword1" class="col-lg-4">Password</label>
+              <input type="password" class="form-control col form-control-lg" id="exampleInputPassword1" />
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer border-0 px-0">
+          <button type="button" class="btn btn-cancel" data-dismiss="modal">
+            Cancel
+          </button>
+          <button type="button" class="btn btn-login">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Login as school leader  Modal -->
+  <div class="modal fade" id="schoolLeaderLogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg login-modal">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <h5 class="modal-title" id="exampleModalLabel">
+            Log in as a School Leader
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <img src="assets/icons/close.svg" alt="" />
+            </span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="row mb-3">
+              <label for="exampleInputEmail1" class="col-lg-4">Username</label>
+              <input type="text" class="form-control form-control-lg col" id="exampleInputEmail1"
+                aria-describedby="emailHelp" />
+            </div>
+            <div class="row">
+              <label for="exampleInputPassword1" class="col-lg-4">Password</label>
+              <input type="password" class="form-control col form-control-lg" id="exampleInputPassword1" />
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer border-0 px-0">
+          <button type="button" class="btn btn-cancel" data-dismiss="modal">
+            Cancel
+          </button>
+          <button type="button" class="btn btn-login">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HappSchool interest  Modal -->
+  <div class="modal big-modals fade" id="interestModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg login-modal">
+      <div class="modal-content">
+        <div class="modal-header border-0 flex-lg-column text-lg-center align-items-center">
+          <h5 class="modal-title" id="exampleModalLabel">
+            Thanks for your interest in HappSchool for Schools
+          </h5>
+          <strong>Please fill out this form to request a quote. Someone <br />
+            from our team will get right back to you.</strong>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <img src="assets/icons/close.svg" alt="" />
+            </span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group mb-3">
+              <label for="firstName">First Name <span>*</span></label>
+              <input type="text" class="form-control form-control-lg col" id="firstName" />
+            </div>
+            <div class="form-group mb-3">
+              <label for="lastName">Last Name <span>*</span></label>
+              <input type="text" class="form-control form-control-lg col" id="lastName" />
+            </div>
+            <div class="form-group mb-3">
+              <label for="yourRole">Your Role <span>*</span></label>
+              <input type="text" class="form-control form-control-lg col" id="yourRole" />
+            </div>
+            <div class="form-group mb-3">
+              <label for="yourEmail">Email <span>*</span></label>
+              <input type="text" class="form-control form-control-lg col" id="yourEmail" />
+            </div>
+            <div class="form-group mb-3">
+              <label for="yourPhone">Phone </label>
+              <input type="text" class="form-control form-control-lg col" id="yourPhone" />
+            </div>
+            <div class="form-group mb-3">
+              <label for="studentsJoin">How many students would use HappSchool? <span>*</span></label>
+              <input type="text" class="form-control form-control-lg col" id="studentsJoin" />
+            </div>
+            <div class="form-group mb-3">
+              <label for="schools">School <span>*</span></label>
+              <input type="text" class="form-control form-control-lg col" id="school" />
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer border-0 px-0">
+          <button type="button" class="btn btn-cancel" data-dismiss="modal">
+            Cancel
+          </button>
+          <button type="button" class="btn btn-login">Get a Quote!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HappSchool interest  Modal -->
+  <div class="modal big-modals fade submit-request" id="salesModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg login-modal">
+      <div class="modal-content px-lg-5">
+        <div class="modal-header border-0 flex-lg-column text-lg-center">
+          <h5 class="modal-title" id="exampleModalLabel">Submit a request</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <img src="assets/icons/close.svg" alt="" />
+            </span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group mb-3">
+              <label for="nameSurname">Name and Surname <span>*</span></label>
+              <input type="text" class="form-control form-control-lg col" id="nameSurname" />
+            </div>
+            <div class="form-group mb-3">
+              <label for="salelsEmail">Your email address <span>*</span></label>
+              <input type="email" class="form-control form-control-lg col" id="salelsEmail" />
+            </div>
+            <div class="form-group mb-3">
+              <label for="subject">Subject <span>*</span></label>
+              <input type="text" class="form-control form-control-lg col" id="subject" />
+            </div>
+            <div class="form-group mb-3">
+              <label for="description">Description * <span>*</span></label>
+              <textarea type="text" class="form-control form-control-lg col" id="description">
+                </textarea>
+            </div>
+            <div class="row">
+              <div class="col">
+                <small>Please enter a description of your request. For the fastest
+                  resolution, please include all relevant details to your
+                  request so that our team can support you. This may include
+                  the following: class name, email accounts involved, student
+                  names and/or ID numbers, school name and device
+                  information.</small>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer border-0 px-0">
+          <button type="button" class="btn btn-cancel" data-dismiss="modal">
+            Cancel
+          </button>
+          <button type="button" class="btn btn-login">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">-->
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/heading-slide.js"></script>
+
+  <script>
+    jQuery(document).ready(function () {
+      for (var i = 1; i < 18; i++) {
+        (function (i) {
+          setTimeout(function () {
+            jQuery("#" + i).show();
+            jQuery("#chatbot").animate({
+              scrollTop: $("#chatbot")[0].scrollHeight
+            }, 2000);
+          }, 2000 * (i + 2));
+        })(i);
+      }
+    });
+  </script>
 
 </body>
 

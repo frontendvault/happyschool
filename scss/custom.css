@@ -347,27 +347,31 @@ h6 {
   line-height: 18px;
 }
 
-.testimonial-container img.testi-icon {
+.testimonials-bg {
+  background: url(../assets/images/smart-interface-bg.png) no-repeat center top;
+  background-size: cover;
+}
+
+.testimonials-bg .testimonial-container img.testi-icon {
   position: absolute;
   top: -12px;
-  width: 38px;
+  width: 80px;
   left: 200px;
 }
 
-.testimonial-container .testimonial {
+.testimonials-bg .testimonial-container .testimonial {
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
-.testimonial-container .testimonial h6 {
+.testimonials-bg .testimonial-container .testimonial h6 {
   font-size: 24px;
   line-height: 32px;
   color: #00C4FF;
   font-weight: 900;
 }
 
-.testimonial-container .testimonial p {
-  text-align: right;
+.testimonials-bg .testimonial-container .testimonial p {
   color: #057BBD;
 }
 
@@ -816,6 +820,17 @@ xslide
   .relevant-feedback .dropdown-btn .dropdown-section span {
     display: block;
     text-align: right;
+  }
+  .testimonials-bg .testimonial-container {
+    padding: 40px 20px;
+  }
+  .testimonials-bg .testimonial-container img.testi-icon {
+    width: 30px;
+    left: 20px;
+    top: -15px;
+  }
+  .testimonials-bg .testimonial-container .testimonial {
+    padding: 20px;
   }
   .contact-us .contact {
     padding: 40px 20px;
