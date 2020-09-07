@@ -113,6 +113,14 @@
         width: auto;
     }
 
+    .modal-header {
+        display: flex;
+        flex-direction: column;
+
+        h5 {
+            margin-bottom: 20px;
+        }
+    }
 
     .contact-us {
         .contact {

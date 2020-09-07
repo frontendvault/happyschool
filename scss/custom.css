@@ -876,6 +876,18 @@ xslide
   .big-modals .modal-content .modal-footer {
     width: auto;
   }
+  .modal-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .modal-header h5 {
+    margin-bottom: 20px;
+  }
   .contact-us .contact {
     padding: 40px 20px;
   }
