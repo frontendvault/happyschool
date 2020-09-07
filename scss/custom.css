@@ -10,6 +10,11 @@ body .modal-backdrop {
   max-width: 1208px;
 }
 
+::-webkit-scrollbar {
+  width: auto;
+  display: none;
+}
+
 .main-banner {
   background: url(../assets/images/main-banner-bg.png) no-repeat top center;
 }
@@ -188,11 +193,6 @@ body .modal-backdrop {
   height: 300px;
   overflow-y: scroll;
   font-size: 18px;
-}
-
-.main-banner .main-banner-bottom .custom-chatbot ::-webkit-scrollbar {
-  width: auto;
-  display: none;
 }
 
 .main-banner .main-banner-bottom .custom-chatbot .kid {
@@ -706,6 +706,13 @@ xslide
     margin-top: 30px;
     margin-bottom: 20px;
   }
+  .happy-school-benefits h2 {
+    font-size: 42px;
+    line-height: 42px;
+  }
+  .happy-school-benefits h6 {
+    font-size: 20px;
+  }
   .smart-interface {
     padding-bottom: 40px;
   }
@@ -754,11 +761,12 @@ xslide
     position: static;
   }
   .happy-school-benefits h2 {
-    font-size: 40px;
-    line-height: 42px;
+    font-size: 35px;
+    line-height: 35px;
   }
   .happy-school-benefits h6 {
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: normal;
   }
   .happy-school-benefits p {
     margin-bottom: 50px;

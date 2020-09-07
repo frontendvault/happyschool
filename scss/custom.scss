@@ -20,6 +20,13 @@ body .modal-backdrop {
     max-width: 1208px;
 }
 
+// Chatbot Scroll
+::-webkit-scrollbar {
+    width: auto;
+
+    display: none;
+}
+
 .main-banner {
     background: url(../assets/images/main-banner-bg.png) no-repeat top center;
 
@@ -171,12 +178,6 @@ body .modal-backdrop {
 
         .custom-chatbot {
 
-            // Chatbot Scroll
-            ::-webkit-scrollbar {
-                width: auto;
-
-                display: none;
-            }
 
             height: 300px;
 
