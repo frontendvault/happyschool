@@ -123,6 +123,12 @@ body .modal-backdrop {
             padding: 24px 20px;
             margin-bottom: 24px;
 
+            &:hover {
+                background: $light-blue;
+                border: 1px solid $light-blue;
+
+            }
+
 
 
             p {

@@ -141,6 +141,11 @@ body .modal-backdrop {
   margin-bottom: 24px;
 }
 
+.main-banner .login-section .login-box:hover {
+  background: #00C4FF;
+  border: 1px solid #00C4FF;
+}
+
 .main-banner .login-section .login-box p {
   font-size: 18px;
   margin-top: 10px;
@@ -592,6 +597,7 @@ xslide
   overflow: hidden;
   vertical-align: top;
   width: auto;
+  color: #fff;
 }
 
 .cd-headline.slide b {
