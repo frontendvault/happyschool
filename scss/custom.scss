@@ -27,6 +27,15 @@ body .modal-backdrop {
     display: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+
 .main-banner {
     background: url(../assets/images/main-banner-bg.png) no-repeat top center;
 
@@ -45,6 +54,7 @@ body .modal-backdrop {
             line-height: 64px;
             color: $fade-blue;
             margin-bottom: 35px;
+            font-weight: 500;
 
             #spin {
                 color: $white;
@@ -301,6 +311,10 @@ body .modal-backdrop {
                 }
             }
         }
+    }
+
+    .extra-padding {
+        padding: 60px 100px;
     }
 }
 

@@ -39,6 +39,12 @@
         }
     }
 
+    .relevant-feedback {
+        .extra-padding {
+            padding: 15px;
+        }
+    }
+
     .happy-school-benefits {
         h2 {
             font-size: 35px;
@@ -116,5 +122,6 @@
     .copyrights {
         text-align: center;
         padding-bottom: 20px;
+        font-size: 20px;
     }
 }
