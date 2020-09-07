@@ -25,7 +25,8 @@ h6 {
 }
 
 .main-banner {
-  background: url(../assets/images/main-banner-bg.png) no-repeat top center;
+  background: url(../assets/images/main-banner-bg1.png) no-repeat top center;
+  background-size: cover;
 }
 
 .main-banner .logo {
@@ -257,7 +258,8 @@ h6 {
 .smart-interface {
   padding-top: 68px;
   padding-bottom: 200px;
-  background: url(../assets/images/main-banner-bg.png) no-repeat bottom center;
+  background: url(../assets/images/smart-interface-bg.png) no-repeat bottom center;
+  background-size: cover;
 }
 
 .smart-interface h3 {
