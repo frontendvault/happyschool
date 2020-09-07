@@ -36,6 +36,10 @@ h6 {
     font-weight: 500;
 }
 
+.curser-pointer {
+    cursor: pointer;
+}
+
 .main-banner {
     background: url(../assets/images/main-banner-bg1.png) no-repeat top center;
     background-size: cover;
@@ -126,6 +130,7 @@ h6 {
         h4 {
             font-size: 24px;
             margin-bottom: 24px;
+            // cursor: pointer;
         }
 
         .login-box {
@@ -420,11 +425,12 @@ h6 {
     }
 
     .video-bg {
-        background: url(..//assets/images/video-img.svg) no-repeat top left;
-        background-size: cover;
-        position: relative;
-        padding: 24px;
-        height: 550px;
+        padding: 0;
+
+        iframe {
+            height: 560px;
+            width: 100%;
+        }
 
         .play-icon {
             height: 160px;
@@ -546,6 +552,44 @@ h6 {
         .modal-body,
         .modal-footer {
             width: 100%;
+        }
+    }
+}
+
+.thanks-modal {
+    .login-modal {
+        z-index: 9;
+
+        .modal-body {
+            margin-top: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+
+            h3 {
+                font-size: 24px;
+            }
+
+            p {
+                color: $grey;
+            }
+
+        }
+
+        .modal-header {
+            right: 0;
+            top: 20px
+        }
+
+        .close {
+            right: 20px;
+            top: -5px;
+        }
+
+        .btn {
+            padding: 10px 30px;
+            background: $light-blue;
+            border-radius: 6px;
+            color: $white;
         }
     }
 }

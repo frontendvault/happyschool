@@ -24,6 +24,10 @@ h6 {
   font-weight: 500;
 }
 
+.curser-pointer {
+  cursor: pointer;
+}
+
 .main-banner {
   background: url(../assets/images/main-banner-bg1.png) no-repeat top center;
   background-size: cover;
@@ -409,11 +413,12 @@ h6 {
 }
 
 .contact-us .video-bg {
-  background: url(..//assets/images/video-img.svg) no-repeat top left;
-  background-size: cover;
-  position: relative;
-  padding: 24px;
-  height: 550px;
+  padding: 0;
+}
+
+.contact-us .video-bg iframe {
+  height: 560px;
+  width: 100%;
 }
 
 .contact-us .video-bg .play-icon {
@@ -526,6 +531,41 @@ h6 {
 .submit-request .modal-content .modal-body,
 .submit-request .modal-content .modal-footer {
   width: 100%;
+}
+
+.thanks-modal .login-modal {
+  z-index: 9;
+}
+
+.thanks-modal .login-modal .modal-body {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.thanks-modal .login-modal .modal-body h3 {
+  font-size: 24px;
+}
+
+.thanks-modal .login-modal .modal-body p {
+  color: #A6AAB5;
+}
+
+.thanks-modal .login-modal .modal-header {
+  right: 0;
+  top: 20px;
+}
+
+.thanks-modal .login-modal .close {
+  right: 20px;
+  top: -5px;
+}
+
+.thanks-modal .login-modal .btn {
+  padding: 10px 30px;
+  background: #00C4FF;
+  border-radius: 6px;
+  color: #ffffff;
 }
 
 .cd-title {
@@ -832,8 +872,9 @@ xslide
   .testimonials-bg .testimonial-container .testimonial {
     padding: 20px;
   }
-  .no-padding {
-    padding: 0;
+  .big-modals .modal-content .modal-body,
+  .big-modals .modal-content .modal-footer {
+    width: auto;
   }
   .contact-us .contact {
     padding: 40px 20px;

@@ -82,7 +82,7 @@
           </div>
           <div class="row">
             <div class="col-lg-12">
-              <h4><a href="" class="text-light">Sign up</a></h4>
+              <h4 class="text-light curser-pointer" data-toggle="modal" data-target="#interestModal">Sign up</h4>
             </div>
           </div>
         </div>
@@ -228,10 +228,11 @@
       <div class="row position-relative">
         <img src="assets/icons/testimonial-icon.png" class="testi-icon" alt="">
         <div class="col-lg-8 offset-lg-2 testimonial no-padding mt-md-5 pt-md-5">
-          <h6 class="mb-md-5">Even if I tripled my number of direct contact with each student, that kind of insight would
+          <h6 class="mb-md-5">Even if I tripled my number of direct contact with each student, that kind of insight
+            would
             never have come.
           </h6>
-         
+
 
         </div>
         <div class="col-md-6 offset-md-6 testimonial p-md-0 pb-md-4 no-padding">
@@ -349,11 +350,11 @@
       <div class="col-lg-auto contact text-center p-lg-5">
         <h3>Contact us</h3>
 
-        <button class="btn btn-lg btn-block mb-4" data-toggle="modal" data-target="#interestModal">
+        <button class="btn btn-lg btn-block mb-4" data-toggle="modal" data-target="#salesModal">
           Contact HappSchool Support
         </button>
         <div class="w-100"></div>
-        <button class="btn btn-lg btn-block mb-4" data-toggle="modal" data-target="#salesModal">
+        <button class="btn btn-lg btn-block mb-4" data-toggle="modal" data-target="#interestModal">
           Contact School Sales
         </button>
 
@@ -365,9 +366,11 @@
         </p>
       </div>
       <div class="col video-bg">
-        <a href="javascript:;" class="play-icon">
+        <!-- <a href="javascript:;" class="play-icon">
           <img src="assets/icons/play-icon.svg" alt="" />
-        </a>
+        </a> -->
+        <iframe src="https://www.youtube.com/embed/V-axTrGXxmE?controls=0" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
     <div class="row copyrights align-items-center">
@@ -581,7 +584,8 @@
           <button type="button" class="btn btn-cancel" data-dismiss="modal">
             Cancel
           </button>
-          <button type="button" class="btn btn-login">Get a Quote!</button>
+          <button type="button" class="btn btn-login" data-toggle="modal" data-target="#exampleModal">Get a
+            Quote!</button>
         </div>
       </div>
     </div>
@@ -641,6 +645,27 @@
     </div>
   </div>
 
+  <!-- thank you message modal -->
+  <div class="modal big-modals thanks-modal fade" id="exampleModal" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog login-modal" role="document">
+      <div class="modal-content">
+        <div class="modal-header position-absolute">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"> <img src="assets/icons/close.svg" alt=""> </span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <button class="btn btn-lg mb-5">Your request is submitted</button>
+          <h3>Thanks you for contacting us!</h3>
+          <p>we will get back to you as soon as possible</p>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">-->
@@ -651,21 +676,21 @@
 
   <script>
     jQuery(document).ready(function () {
-  
-  
+
+
       var cc = 0;
       var cc2 = 17;
       var myTimer = setInterval(myFn, 2000);
-  
+
       function myFn() {
-  
+
         cc++;
         --cc2;
         jQuery("#" + cc).show();
         jQuery("#chatbot").animate({
           scrollTop: $("#chatbot")[0].scrollHeight
         }, 2000);
-  
+
         if (cc == 18) {
           clearInterval(myTimer);
           for (let n = 1; n <= 17; n++) {
@@ -676,6 +701,13 @@
         }
       }
     });
+    $(document).on('show.bs.modal', '.modal', function () {
+    var zIndex = 1040 + (10 * $('.modal:visible').length);
+    $(this).css('z-index', zIndex);
+    setTimeout(function() {
+        $('.modal-backdrop').not('.modal-stack').css('z-index', zIndex - 1).addClass('modal-stack');
+    }, 0);
+});
   </script>
 
 </body>

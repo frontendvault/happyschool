@@ -108,9 +108,11 @@
         }
     }
 
-    .no-padding {
-        padding: 0;
+    .big-modals .modal-content .modal-body,
+    .big-modals .modal-content .modal-footer {
+        width: auto;
     }
+
 
     .contact-us {
         .contact {
