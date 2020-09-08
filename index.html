@@ -680,7 +680,7 @@
 
       var cc = 0;
       var cc2 = 17;
-      var myTimer = setInterval(myFn, 2000);
+      var myTimer = setInterval(myFn, 2500);
 
       function myFn() {
 
@@ -689,7 +689,7 @@
         jQuery("#" + cc).show();
         jQuery("#chatbot").animate({
           scrollTop: $("#chatbot")[0].scrollHeight
-        }, 2000);
+        }, 2500);
 
         if (cc == 18) {
           clearInterval(myTimer);
